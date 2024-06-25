@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://watanabechika.github.io/sitemap.xml
+Sitemap: https://watanabechika.github.io/Wana_blog/sitemap.xml
