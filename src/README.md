@@ -6,7 +6,7 @@ title: 主页
 heroImage: /logo.png
 heroText: Wanakachi的小站
 heroFullScreen: false
-tagline: 从无好丑向人说，只等君看自己知
+tagline: 全速前进yosoro~
 projects:
   # - icon: project
   #   name: 项目名称
