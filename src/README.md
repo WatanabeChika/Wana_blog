@@ -5,7 +5,8 @@ icon: home
 title: 主页
 heroImage: /logo.png
 heroText: Wanakachi的小站
-heroFullScreen: false
+heroFullScreen: true
+bgImage: /assets/images/homepageBg.png
 tagline: 全速前进yosoro~
 projects:
   # - icon: project
