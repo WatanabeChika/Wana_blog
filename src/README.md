@@ -7,7 +7,7 @@ heroImage: /logo.png
 heroText: Wanakachi的小站
 heroFullScreen: true
 bgImage: /assets/images/homepageBg.png
-tagline: 全速前进yosoro~
+tagline: 全速前進、ヨーソロー！
 projects:
   # - icon: project
   #   name: 项目名称

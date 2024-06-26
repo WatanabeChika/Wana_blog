@@ -4,9 +4,9 @@ excerpt: 一道经典的小学逻辑题目。
 date: 2024-06-26
 isOriginal: true
 category: 
-    - 知识
+    - Knowledge
 tag: 
-    - 益智谜题
+    - Puzzle
     - Python
 ---
 
