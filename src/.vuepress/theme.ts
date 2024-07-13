@@ -75,11 +75,11 @@ export default hopeTheme({
   },
 
   // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/posts/summer_camp.html": ["wly"],
+  //   },
+  // },
 
   // 多语言配置
   metaLocales: {
