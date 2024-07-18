@@ -2,7 +2,21 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  // "/star/",
+  {
+    text: "ACG",
+    icon: "headset",
+    link: "/posts/acg/",
+  },
+  {
+    text: "编程",
+    icon: "code",
+    link: "/posts/coding/",
+  },
+  {
+    text: "日常",
+    icon: "mountain-sun", 
+    link: "/posts/life/",
+  },
   // "/demo/",
   // {
   //   text: "博文",

@@ -3,6 +3,14 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/": [
     "",
+  ],
+  "/posts/acg/": "structure",
+
+  "/posts/coding/": "structure",
+
+  "/posts/life/": "structure",
+  // [
+  //   "",
     // {
     //   text: "如何使用",
     //   icon: "laptop-code",
@@ -22,5 +30,5 @@ export default sidebar({
     //   icon: "person-chalkboard",
     //   link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
     // },
-  ],
+  // ],
 });
