@@ -38,7 +38,7 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/WatanabeChika",
       BiliBili: "https://space.bilibili.com/18259958",
-      Email: "wanakachi@foxmail.com",
+      // Email: "wanakachi@foxmail.com",
       // Gmail: "wachikyyou@gmail.com",
       // Baidu: "https://example.com",
       // Bitbucket: "https://example.com",
