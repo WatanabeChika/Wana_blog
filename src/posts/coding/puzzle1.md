@@ -1,6 +1,6 @@
 ---
 title: 猜数字游戏
-excerpt: 一道经典的小学逻辑题目。
+excerpt: 一道经典的小学逻辑题目
 date: 2024-06-26
 isOriginal: true
 category: 

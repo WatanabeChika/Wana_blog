@@ -1,6 +1,6 @@
 ---
 title: 参加保研夏令营要干啥？
-excerpt: 2024年上海交通大学网安学院夏令营复试记录。
+excerpt: 2024年上海交通大学网安学院夏令营复试记录
 date: 2024-07-12
 isOriginal: true
 category: 
