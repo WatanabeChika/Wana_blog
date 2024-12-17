@@ -8,7 +8,7 @@ export default navbar([
     link: "/posts/acg/",
   },
   {
-    text: "编程",
+    text: "技术",
     icon: "code",
     link: "/posts/coding/",
   },
