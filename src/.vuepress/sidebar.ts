@@ -4,7 +4,7 @@ export default sidebar({
   "/": [
     "",
   ],
-  "/posts/acg/": "structure",
+  "/posts/anig/": "structure",
 
   "/posts/coding/": "structure",
 
