@@ -1,5 +1,5 @@
 ---
-title: 挑选合适的歌曲
+title: 通过BPM挑选合适的歌曲
 excerpt: 通过Python爬虫获取歌曲BPM数据，以此作为依据进行挑选。
 date: 2024-06-27
 isOriginal: true

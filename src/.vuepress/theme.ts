@@ -26,6 +26,7 @@ export default hopeTheme({
 
   // 侧边栏
   sidebar,
+  sidebarSorter: ["readme", "order", "date-desc", "title"],
 
   // 页脚
   footer: "Theme of vuepress-theme-hope",

@@ -1,5 +1,5 @@
 ---
-title: 我雷迦利亚只能刷漆贴膜不能升级中控？
+title: 雷迦利亚牌随身听，启动
 excerpt: 利用MOD自定义FF15里的车载音乐（随身听歌曲）
 date: 2024-08-26
 isOriginal: true

@@ -3,9 +3,9 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "A&G",
+    text: "ACG",
     icon: "headset",
-    link: "/posts/anig/",
+    link: "/posts/acg/",
   },
   {
     text: "技术",
