@@ -283,4 +283,4 @@ def draw_bpm():
 
 ![](/assets/images/bpm-check/bpm1.png)
 
-![](/assets/images/bpm-check/bpm1.png)
+![](/assets/images/bpm-check/bpm2.png)
