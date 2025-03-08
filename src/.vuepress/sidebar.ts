@@ -10,7 +10,7 @@ export default sidebar({
       prefix: "/posts/acg/",
       collapsible: true,
       expanded: true,
-      children: [],
+      children: ["aria_aqua.md"],
     },
     {
       text: "漫画相关",

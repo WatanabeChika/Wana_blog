@@ -56,7 +56,7 @@ conda install numpy librosa soundfile pydub
 
 傅里叶变换就像是一座桥梁，能够将时域信号转换为频域信号，反之，逆傅里叶变换可以把频域信号还原为时域信号。通过傅里叶变换，我们能把复杂的时域音频信号分解成不同频率的正弦和余弦波的组合，这对于音频处理非常关键，因为许多音频特效和滤波操作都是基于对频域信号的调整来实现的。
 
-![傅里叶变换（Fourier transform）](/assets/images/audio-effect/Fourier.gif)
+![傅里叶变换（Fourier transform）](/assets/images/audio-effect/Fourier.gif =500x)
 
 ### 模拟电话音效
 模拟电话音效的实现，主要基于对音频频域的精确操作。
