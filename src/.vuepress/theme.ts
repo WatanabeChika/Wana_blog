@@ -39,6 +39,14 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/WatanabeChika",
       BiliBili: "https://space.bilibili.com/18259958",
+      Bangumi: {
+        icon: "https://bangumi.tv/img/favicon.ico",
+        link: "https://bangumi.tv/user/881268",
+      },
+      Wana_tools: {
+        icon: "https://watanabechika.github.io/Wana_tools/favicon.ico",
+        link: "https://watanabechika.github.io/Wana_tools",
+      },
       // Email: "wanakachi@foxmail.com",
       // Gmail: "wachikyyou@gmail.com",
       // Baidu: "https://example.com",
