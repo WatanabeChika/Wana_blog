@@ -34,7 +34,7 @@ export default sidebar({
       prefix: "/posts/coding/",
       collapsible: true,
       expanded: true,
-      children: ["audio_effect.md", "bpm_check.md", "mpv_lines.md"],
+      children: ["audio_effect.md", "bpm_check.md", "mpv_lines.md", "cnki_search.md"],
     },
     {
       text: "小谜题",
