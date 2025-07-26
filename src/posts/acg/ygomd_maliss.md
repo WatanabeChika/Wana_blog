@@ -179,12 +179,12 @@ $$
 $$
 
 ### 4. 柴郡猫/三月兔
-若无法单卡动的柴郡猫和三月兔一起上手，或复数上手，便具备了调度本家资源的能力。由于三月兔具有除外墓地本家卡的能力，因此只有复数柴郡猫上手不能前置神弓。
+若无法单卡动的柴郡猫和三月兔一起上手，或复数上手，便具备了调度本家资源的能力。三月兔具有除外墓地本家卡的能力，但却不能除外特召，因此只有柴郡猫和三月兔同时上手才能前置神弓。
 $$
 \overset{\text{6}}{\text{柴郡猫\&柴郡猫}} = \overset{\text{3}}{\text{彩流体}}+\overset{\text{1}}{\text{墓地红后白后}}+\overset{\text{2}}{\text{墓地红心后}}
 $$
 $$
-\overset{\text{6}}{\text{三月兔\&三月兔}} = \overset{\text{2}}{\text{神弓}}+\overset{\text{3}}{\text{彩流体}}+\overset{\text{1}}{\text{墓地红后白后}}
+\overset{\text{6}}{\text{三月兔\&三月兔}} = \overset{\text{3}}{\text{彩流体}}+\overset{\text{1}}{\text{墓地红后白后}}+\overset{\text{2}}{\text{墓地红心后}}
 $$
 $$
 \overset{\text{6}}{\text{柴郡猫\&三月兔}} = \overset{\text{2}}{\text{神弓}}+\overset{\text{3}}{\text{彩流体}}+\overset{\text{1}}{\text{墓地红后白后}}

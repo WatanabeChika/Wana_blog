@@ -24,7 +24,7 @@ export default sidebar({
       prefix: "/posts/acg/",
       collapsible: true,
       expanded: true,
-      children: ["p5r_twins.md", "p5r_lavenza.md", "ff15_radio.md", "ygomd_maliss.md"],
+      children: ["ygomd_maliss.md", "ff15_radio.md", "p5r_lavenza.md", "p5r_twins.md"],
     },
   ],
 
@@ -34,10 +34,10 @@ export default sidebar({
       prefix: "/posts/coding/",
       collapsible: true,
       expanded: true,
-      children: ["audio_effect.md", "bpm_check.md", "mpv_lines.md", "cnki_search.md"],
+      children: ["cnki_search.md", "audio_effect.md", "mpv_lines.md", "bpm_check.md"],
     },
     {
-      text: "小谜题",
+      text: "益智谜题",
       prefix: "/posts/coding/",
       collapsible: true,
       expanded: true,
