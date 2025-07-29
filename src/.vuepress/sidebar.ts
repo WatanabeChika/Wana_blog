@@ -34,7 +34,7 @@ export default sidebar({
       prefix: "/posts/coding/",
       collapsible: true,
       expanded: true,
-      children: ["cnki_search.md", "audio_effect.md", "mpv_lines.md", "bpm_check.md"],
+      children: ["killer_sudoku.md", "cnki_search.md", "audio_effect.md", "mpv_lines.md", "bpm_check.md"],
     },
     {
       text: "益智谜题",
