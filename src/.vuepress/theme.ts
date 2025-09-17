@@ -96,10 +96,8 @@ export default hopeTheme({
   },
 
   // 热重载
-  hotReload: true,
-
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
+  hotReload: true,
 
   // 在这里配置主题提供的插件
   plugins: {
@@ -159,7 +157,7 @@ export default hopeTheme({
       // insert component easily
 
       // 在启用之前安装 echarts
-      // echarts: true,
+      echarts: true,
 
       // 在启用之前安装 flowchart.ts
       // flowchart: true,

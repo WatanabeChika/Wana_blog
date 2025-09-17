@@ -24,7 +24,7 @@ export default sidebar({
       prefix: "/posts/acg/",
       collapsible: true,
       expanded: true,
-      children: ["ygomd_maliss.md", "ff15_radio.md", "p5r_lavenza.md", "p5r_twins.md"],
+      children: ["ygomd_maliss_2.md", "ygomd_maliss.md", "ff15_radio.md", "p5r_lavenza.md", "p5r_twins.md"],
     },
   ],
 
