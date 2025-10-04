@@ -40,8 +40,8 @@ export default hopeTheme({
       GitHub: "https://github.com/WatanabeChika",
       BiliBili: "https://space.bilibili.com/18259958",
       Bangumi: {
-        icon: "https://bgm.tv/img/favicon.ico",
-        link: "https://bgm.tv/user/881268",
+        icon: "https://bangumi.tv/img/favicon.ico",
+        link: "https://bangumi.tv/user/881268",
       },
       Wana_tools: {
         icon: "https://watanabechika.github.io/Wana_tools/favicon.ico",
@@ -150,6 +150,7 @@ export default hopeTheme({
       tabs: true,
       tasklist: true,
       vPre: true,
+      footnote: true,
 
       // 在启用之前安装 chart.js
       // chart: true,
