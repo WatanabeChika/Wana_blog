@@ -30,9 +30,9 @@ Ofnoname的讲解请参阅：[【2025】简易实用知网爬虫，过程加代�
 ::: info
 反例，即页面切换会更改URL的情况如下：
 
-以[Bangumi](https://bangumi.tv/)为例，当我在全部动画列表中查看第二页时，可以看到URL变成了
+以[Bangumi](https://bgm.tv/)为例，当我在全部动画列表中查看第二页时，可以看到URL变成了
 
-`https://bangumi.tv/anime/browser?sort=rank&page=2`
+`https://bgm.tv/anime/browser?sort=rank&page=2`
 
 这里问号后的`sort=rank`和`page=2`都可以理解成该主页面（全部动画列表）下的附加条件（按排名排序，第二页）。如果直接访问上面这条URL，能够直接进入列表第二页，无需多余点击操作。
 :::

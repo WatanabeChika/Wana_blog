@@ -13,10 +13,10 @@ article: false
 
 随时欢迎联系我交流讨论。我的邮箱：wanakachi@foxmail.com
 
-附一张图，实时同步我的[Bangumi](https://bangumi.tv/)动态：
+附一张图，实时同步我的[Bangumi](https://bgm.tv/)动态：
 
-<a href="http://bangumi.tv/user/881268">
-<img src="http://bangumi.tv/chart/img/881268" border="0" width="50%" alt="Wanakachi 的个人主页" />
+<a href="http://bgm.tv/user/881268">
+<img src="http://bgm.tv/chart/img/881268" border="0" width="50%" alt="Wanakachi 的个人主页" />
 </a>
 
 以上。祝你看得开心。
