@@ -1,6 +1,6 @@
 ---
 title: 给歌曲加点特效
-excerpt: 频域分析、节奏划分——用Python进行音频处理
+excerpt: 频域分析、节奏划分——用 Python 进行音频处理
 date: 2025-03-07
 isOriginal: true
 category: 
@@ -11,11 +11,11 @@ tag:
     - BPM
 ---
 
-在音频处理的领域中，Python凭借其功能强大的库和简洁直观的语法，成为众多开发者进行音频处理工作的得力工具。!!并不，你见过哪个搞音乐的用Python？然而我是程序员，我用!! 
+在音频处理的领域中，Python 凭借其功能强大的库和简洁直观的语法，成为众多开发者进行音频处理工作的得力工具。!!并不，你见过哪个搞音乐的用Python？然而我是程序员，我用!!
 
-本篇博客将简要介绍如何借助Python处理音频文件，以及记录几个比较实用的音频处理函数 ~~（加特效函数）~~。
+本篇博客将简要介绍如何借助 Python 处理音频文件，以及记录几个比较实用的音频处理函数 ~~（加特效函数）~~。
 
-我们主要利用Python中的`numpy`、`librosa`、`soundfile`和`pydub`库来辅助处理音频文件。
+我们主要利用 Python 中的`numpy`、`librosa`、`soundfile`和`pydub`库来辅助处理音频文件。
 
 ::: tip
 如果你没有安装这四个库，请先运行库安装命令：
@@ -31,11 +31,11 @@ conda install numpy librosa soundfile pydub
 :::
 
 ## MP3 vs. WAV
-在进行音频处理是，通常都需要将待处理的音频文件格式转为WAV格式，这是为什么呢？WAV格式和平时最常见的音频格式MP3有什么区别呢？
+在进行音频处理是，通常都需要将待处理的音频文件格式转为 WAV 格式，这是为什么呢？WAV 格式和平时最常见的音频格式 MP3 有什么区别呢？
 
-**MP3**，全称 MPEG-1 Audio Layer 3，是一种**有损**压缩格式，它通过剔除人耳难以察觉的音频信息，以此来大幅减小文件体积。这种特性使得MP3在存储空间和网络传输方面展现出显著优势，因此在音乐播放、在线音频等诸多场景中得到了极为广泛的应用。不过，这种压缩方式不可避免地会造成一定程度的音频质量损耗。
+**MP3**，全称 MPEG-1 Audio Layer 3，是一种**有损**压缩格式，它通过剔除人耳难以察觉的音频信息，以此来大幅减小文件体积。这种特性使得 MP3 在存储空间和网络传输方面展现出显著优势，因此在音乐播放、在线音频等诸多场景中得到了极为广泛的应用。不过，这种压缩方式不可避免地会造成一定程度的音频质量损耗。
 
-**WAV** —— Waveform Audio File Format ——格式则属于**无损**音频格式，它能够完整保留原始音频的全部信息，确保音频质量达到极高水准。在音频处理过程中，我们常常需要对音频进行精准操作，诸如调整频率、添加特效等。这就要求音频文件能够提供完整且精确的音频数据。WAV格式由于具备无损的特性，恰好能够充分满足这一严苛需求。所以，在音频处理时，我们通常会优先选用WAV格式文件。
+**WAV** —— Waveform Audio File Format ——格式则属于**无损**音频格式，它能够完整保留原始音频的全部信息，确保音频质量达到极高水准。在音频处理过程中，我们常常需要对音频进行精准操作，诸如调整频率、添加特效等。这就要求音频文件能够提供完整且精确的音频数据。WAV 格式由于具备无损的特性，恰好能够充分满足这一严苛需求。所以，在音频处理时，我们通常会优先选用 WAV 格式文件。
 
 ::: info
 除了上文提到的音频格式，还有几种在音频领域占据重要地位的常见格式。
@@ -67,12 +67,12 @@ conda install numpy librosa soundfile pydub
 
 1. 运用`librosa.load`函数加载音频文件，获取音频数据`y`以及采样率`sr`。
 2. 对音频数据执行傅里叶变换（FFT），将时域信号转换为频域信号`Y`，与此同时获取对应的频率数组`freq`。
-3. 创建频段掩码`band_mask`，以此筛选出需要去除的频率范围（即低于`low_freq`和高于`high_freq`的部分），并将这些频段的频域数据设置为0。
+3. 创建频段掩码`band_mask`，以此筛选出需要去除的频率范围（即低于`low_freq`和高于`high_freq`的部分），并将这些频段的频域数据设置为 0。
 4. 创建中间频段掩码`mid_band_mask`，筛选出需要保留并增强的频段（也就是`low_freq`到`high_freq`之间的部分），然后将该频段的频域数据乘以`enhancement_factor`。
 5. 对处理完毕的频域数据进行逆傅里叶变换（IFFT），将其转换回时域信号`y_new`，并取实部。
 6. 利用`soundfile.write`函数将处理后的音频数据写入输出文件。
 
-用Python写出来就是：
+用 Python 写出来就是：
 
 ```python
 def apply_phone_filter(input_file, output_file, 
@@ -104,7 +104,7 @@ def apply_phone_filter(input_file, output_file,
 
 回声效果的实现基于频域中的信号延迟和衰减原理。
 
-在频域中，通过对原始音频信号进行一定时间的**延迟**（由delay_seconds决定延迟时间），并乘以衰减系数decay_factor来模拟回声随着距离和时间**逐渐减弱**的特性。将延迟衰减后的回声频域信号与原始频域信号相加，再通过逆傅里叶变换转换回时域，就得到了带有回声效果的音频信号。
+在频域中，通过对原始音频信号进行一定时间的**延迟**（由 delay_seconds 决定延迟时间），并乘以衰减系数 decay_factor 来模拟回声随着距离和时间**逐渐减弱**的特性。将延迟衰减后的回声频域信号与原始频域信号相加，再通过逆傅里叶变换转换回时域，就得到了带有回声效果的音频信号。
 
 主要实现思路为：
 
@@ -116,7 +116,7 @@ def apply_phone_filter(input_file, output_file,
 6. 进行逆傅里叶变换并取实部，得到处理后的时域信号`y_new`。
 7. 最后使用`soundfile.write`函数将处理后的音频写入输出文件。
 
-用Python写出来就是：
+用 Python 写出来就是：
 
 ```python
 def apply_dizzy_effect(input_file, output_file, delay_seconds=0.01, decay_factor=0.6):
@@ -143,9 +143,9 @@ def apply_dizzy_effect(input_file, output_file, delay_seconds=0.01, decay_factor
 ::: note
 博主为什么要在这里加一个 *眩晕* 呢？因为博主实际听完发现，施加该效果后，
 
-- 如果延迟时间较小（如0.01），歌曲振幅会周期性地忽大忽小；
-- 如果延迟时间较大（如0.1），歌曲会有“断断续续”的感觉；
-- 如果延迟时间中等（如0.05），则会有明显的抖动感（就像边捶胸口边发出声音）。
+- 如果延迟时间较小（如 0.01），歌曲振幅会周期性地忽大忽小；
+- 如果延迟时间较大（如 0.1），歌曲会有“断断续续”的感觉；
+- 如果延迟时间中等（如 0.05），则会有明显的抖动感（就像边捶胸口边发出声音）。
 
 所以与其叫回声效果，还不如叫眩晕效果，这更能描述实际听感。!!回声效果还不如下面的带状滤波做得好!!
 
@@ -154,18 +154,18 @@ def apply_dizzy_effect(input_file, output_file, delay_seconds=0.01, decay_factor
 ### 移除特定频率
 移除特定频率的操作是通过对频域信号的逐个检查来实现的。
 
-根据设定的cut_freq，我们可以将频域中的频率看作是一系列以cut_freq为间隔的区间。对于每个频率点，计算其与cut_freq的余数remainder。如果余数在half_width范围内，或者大于(cut_freq - half_width)，则认为该频率点属于需要移除的频率范围——与cut_freq足够接近，将其对应的频域信号设为 0，以此达到**移除特定频率**的目的（带状滤波）。
+根据设定的 cut_freq，我们可以将频域中的频率看作是一系列以 cut_freq 为间隔的区间。对于每个频率点，计算其与 cut_freq 的余数 remainder。如果余数在 half_width 范围内，或者大于 (cut_freq - half_width)，则认为该频率点属于需要移除的频率范围——与 cut_freq 足够接近，将其对应的频域信号设为 0，以此达到**移除特定频率**的目的（带状滤波）。
 
 主要实现思路为：
 
 1. 加载音频文件，获取音频数据`y`和采样率`sr`，并进行傅里叶变换，得到频域信号`Y`和频率数组`freq`。
 2. 遍历频域信号的每个元素，计算其对应的频率`f`。
 3. 计算频率`f`与`cut_freq`的余数`remainder`。
-4. 如果余数`remainder`在`half_width`范围内，或者大于`(cut_freq - half_width)`，则将该频域元素设置为0。
+4. 如果余数`remainder`在`half_width`范围内，或者大于`(cut_freq - half_width)`，则将该频域元素设置为 0。
 5. 进行逆傅里叶变换并取实部，得到处理后的时域信号`y_new`。
 6. 写入输出文件。
 
-用Python写出来就是：
+用 Python 写出来就是：
 
 ```python
 def apply_cut_frequencies(input_file, output_file, cut_freq=10, half_width=3.0):
@@ -201,22 +201,22 @@ def apply_cut_frequencies(input_file, output_file, cut_freq=10, half_width=3.0):
 发挥想象力，如果交换一首歌的第二拍和第四拍，那么是不是会带来一种非常后现代的错乱风格呢？**交换节拍**这一想法看似简单，实际上实现起来有诸多需要考虑的地方：
 
 1. 利用`AudioSegment.from_file`函数加载音频文件，获取音频片段`audio_segment`，并获取其位深度`bit_depth`。
-2. 借助`tempfile.NamedTemporaryFile`创建一个临时的WAV文件，将音频片段以WAV格式导出到该临时文件中。之所以这样做，是因为后续的一些音频处理操作在WAV格式下更为便捷。
-3. 使用`soundfile.read`函数读取临时WAV文件的音频数据`audio`和采样率`sr`，并将音频数据转换为二维数组并转置。
+2. 借助`tempfile.NamedTemporaryFile`创建一个临时的 WAV 文件，将音频片段以 WAV 格式导出到该临时文件中。之所以这样做，是因为后续的一些音频处理操作在 WAV 格式下更为便捷。
+3. 使用`soundfile.read`函数读取临时 WAV 文件的音频数据`audio`和采样率`sr`，并将音频数据转换为二维数组并转置。
 4. 运用`librosa.to_mono`函数将音频数据转换为单声道（前提是音频原本为立体声），然后使用`librosa.beat.beat_track`函数获取音频的节奏信息，包括节拍速度`tempo`和节拍帧`beat_frames`。
 5. 初始化一些变量，比如交叉渐变时间`crossfade_duration`和总采样点数`total_samples`。
 6. 遍历节拍帧，将音频分割成一个个片段`segment`，每个片段包含一个节拍及其前后的交叉渐变部分。在分割过程中，对每个片段的开头和前一个片段的结尾进行交叉渐变处理，目的是**避免音频拼接时出现明显的跳跃**。交叉渐变通过在一定时间范围内（`crossfade_duration`）线性改变音频的增益来达成。
 7. 将分割好的片段存储在`segments`列表中。
-8. 对`segments`列表中的片段进行分组，每4个片段为一组。在每组中，交换第2和第4个片段的位置，然后将处理后的组重新合并到`new_segments`列表中。
+8. 对`segments`列表中的片段进行分组，每 4 个片段为一组。在每组中，交换第 2 和第 4 个片段的位置，然后将处理后的组重新合并到`new_segments`列表中。
 9. 将`new_segments`列表中的所有片段沿时间轴拼接起来，得到处理后的音频数据`processed_audio`。
-10. 根据输出文件的格式（`.wav`或`.mp3`），采用相应的方法将处理后的音频数据写入输出文件。如果是`.wav`格式，直接使用`soundfile.write`函数；如果是`.mp3`格式，先将处理后的音频数据写入一个临时WAV文件，然后使用`AudioSegment.from_wav`将临时WAV文件转换为MP3格式并导出，最后删除临时WAV文件。如果输出文件格式不被支持，则抛出`ValueError`异常。
+10. 根据输出文件的格式（`.wav`或`.mp3`），采用相应的方法将处理后的音频数据写入输出文件。如果是`.wav`格式，直接使用`soundfile.write`函数；如果是`.mp3`格式，先将处理后的音频数据写入一个临时 WAV 文件，然后使用`AudioSegment.from_wav`将临时 WAV 文件转换为 MP3 格式并导出，最后删除临时 WAV 文件。如果输出文件格式不被支持，则抛出`ValueError`异常。
 
-用Python写出来就是：
+用 Python 写出来就是：
 
 ```python
 def swap_beats(input_file, output_file):
     """
-    交换每组的第2和第4拍，以产生新的节奏感。
+    交换每组的第 2 和第 4 拍，以产生新的节奏感。
     :param input_file: 输入音频文件路径
     :param output_file: 处理后音频文件路径
     """

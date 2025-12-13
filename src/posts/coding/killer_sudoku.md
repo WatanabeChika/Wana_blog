@@ -12,7 +12,7 @@ tag:
 
 数独的种类有很多，其中一种叫做**杀手数独**（*Killer Sudoku*），它是标准数独与数总和数独（*Kakuro*）的结合，规则如下：
 
-1. **基本规则**：适用标准数独规则，即每行、每列及每宫（3×3区域）内填入数字1~9，且不重复。
+1. **基本规则**：适用标准数独规则，即每行、每列及每宫（3×3 区域）内填入数字 1~9，且不重复。
 2. **笼子规则**：全盘被虚线框（笼子）划分，每个笼子左上角标有提示数字，表示该框内所有数字之和；同一笼子内数字不能重复。
 3. **初始状态**：通常无预先填好的数字，需通过笼子提示及标准数独规则推理填数。
 
@@ -67,13 +67,13 @@ tag:
 回溯法的核心代码骨架：
 ``` python
 def backtrack(path, choices):
-    if 满足结束条件:
+    if 满足结束条件：
         记录解
         return
     for c in choices:
-        if 剪枝条件(c): continue
+        if 剪枝条件 (c): continue
         做出选择
-        backtrack(path+[c], 新choices)
+        backtrack(path+[c], 新 choices)
         撤销选择   # 回溯
 ```
 
@@ -100,9 +100,9 @@ def backtrack(path, choices):
 - 若笼子被填满，检查笼子内数字的和是否与标注和相等。
 
 除此之外，由于杀手数独给出的数字和可以视作某种界限，还能利用限界剪枝进一步优化：
-- 检查笼子内剩余格子数 N 和当前已填数字之和 S，若 S+1N 大于标注和（剩余格子全部填1都会超过标注和），或者 S+9N 小于标注和（剩余格子全部填9都达不到标注和），则对该路径剪枝。
+- 检查笼子内剩余格子数 N 和当前已填数字之和 S，若 S+1N 大于标注和（剩余格子全部填 1 都会超过标注和），或者 S+9N 小于标注和（剩余格子全部填 9 都达不到标注和），则对该路径剪枝。
 
-以下用Python代码展示了核心的回溯逻辑实现（省略了状态变量的定义）。
+以下用 Python 代码展示了核心的回溯逻辑实现（省略了状态变量的定义）。
 
 ``` python
 def backtrack(row, col):
@@ -180,9 +180,9 @@ def backtrack(row, col):
 ### 其他细节
 1. 如何输入这样一个杀手数独？
 
-    在保持轻量级、不利用OCR的情况下，可以对数独盘面进行简单!!手工!!编码：将9×9的格子从左至右、从上至下用0~80进行编码，笼子则用一个元素为元组的数组表示。该元组的第一项是一个数组，记录该笼子中的所有格子；第二项是一个整数，记录该笼子中所有数字之和。
+    在保持轻量级、不利用 OCR 的情况下，可以对数独盘面进行简单!!手工!!编码：将 9×9 的格子从左至右、从上至下用 0~80 进行编码，笼子则用一个元素为元组的数组表示。该元组的第一项是一个数组，记录该笼子中的所有格子；第二项是一个整数，记录该笼子中所有数字之和。
 
-    以下展示了文章开头所示[杀手数独盘面](#fig-killer-sudoku)的编码结果。该结果可直接用于输入。
+    以下展示了文章开头所示 [杀手数独盘面](#fig-killer-sudoku) 的编码结果。该结果可直接用于输入。
 
     ``` python
     [
@@ -213,11 +213,11 @@ def backtrack(row, col):
 
 2. 能否直观展示回溯过程？程序运行速度如何？
 
-    可以在每次修改盘面数字时覆盖打印盘面以展示每次回溯的状态，这也能更深刻地体会到回溯法本质是暴力搜索的事实——在不断地试错中前进。但是需要注意，可视化回溯过程会**大幅降低运行速度**。同样的杀手数独问题，在未开启可视化时用时2秒解决，但在开启可视化后需要8384秒才能解决。
+    可以在每次修改盘面数字时覆盖打印盘面以展示每次回溯的状态，这也能更深刻地体会到回溯法本质是暴力搜索的事实——在不断地试错中前进。但是需要注意，可视化回溯过程会**大幅降低运行速度**。同样的杀手数独问题，在未开启可视化时用时 2 秒解决，但在开启可视化后需要 8384 秒才能解决。
 
 ---
 
-最后放上完整的Python代码：
+最后放上完整的 Python 代码：
 
 ::: normal-demo Python code
 ``` python
@@ -229,7 +229,7 @@ class KillerSudokuSolver:
     def __init__(self, cages):
         # 初始化棋盘和数据结构
         self.board          = [[0] * 9 for _ in range(9)]
-        self.cage_index     = [[-1] * 9 for _ in range(9)]  # 记录每个格子所属笼子的ID
+        self.cage_index     = [[-1] * 9 for _ in range(9)]  # 记录每个格子所属笼子的 ID
         self.cages          = cages
         self.num_cages      = len(cages)
         self.cage_total     = [0] * self.num_cages          # 每个笼子的目标和
@@ -242,7 +242,7 @@ class KillerSudokuSolver:
         self.col_used = [[False] * 10 for _ in range(9)]
         self.box_used = [[False] * 10 for _ in range(9)]
         
-        # 根据cages输入填充数据结构
+        # 根据 cages 输入填充数据结构
         for cage_id, (cells, total) in enumerate(cages):
             self.cage_total[cage_id] = total
             self.cage_remaining[cage_id] = len(cells)
@@ -260,7 +260,7 @@ class KillerSudokuSolver:
         if not self.displayed:
             # 首次显示，打印完整的棋盘框架
             print("\n" + "="*50)
-            print(f"杀手数独求解器 | 当前操作: {action}")
+            print(f"杀手数独求解器 | 当前操作：{action}")
             print("="*50)
             
             # 打印列号
@@ -274,7 +274,7 @@ class KillerSudokuSolver:
             self.displayed = True
         else:
             # 非首次显示，回到棋盘顶部
-            sys.stdout.write("\033[{}A".format(18))  # 向上移动18行
+            sys.stdout.write("\033[{}A".format(18))  # 向上移动 18 行
         
         # 打印棋盘内容
         for r in range(9):
@@ -282,7 +282,7 @@ class KillerSudokuSolver:
             print(f"{r+1} |", end="")
             
             for c in range(9):
-                # 每3列添加分隔线
+                # 每 3 列添加分隔线
                 if c % 3 == 0 and c > 0:
                     print("|", end="")
                 
@@ -317,7 +317,7 @@ class KillerSudokuSolver:
             
             print("|")
             
-            # 每3行添加分隔线
+            # 每 3 行添加分隔线
             if r % 3 == 2 and r < 8:
                 print("  +" + "---+---+----+" * 3)
             else:
@@ -424,7 +424,7 @@ class KillerSudokuSolver:
     def print_solution(self):
         """打印最终解决方案"""
         print("\n" + "="*50)
-        print("杀手数独最终解:")
+        print("杀手数独最终解：")
         print("="*50)
         
         # 打印列号
@@ -441,7 +441,7 @@ class KillerSudokuSolver:
             print(f"{r+1} |", end="")
             
             for c in range(9):
-                # 每3列添加分隔线
+                # 每 3 列添加分隔线
                 if c % 3 == 0 and c > 0:
                     print("|", end="")
                 
@@ -452,7 +452,7 @@ class KillerSudokuSolver:
             
             print("|")
             
-            # 每3行添加分隔线
+            # 每 3 行添加分隔线
             if r % 3 == 2 and r < 8:
                 print("  +" + "---+---+----+" * 3)
             else:
@@ -554,16 +554,15 @@ if __name__ == "__main__":
     
     solver = KillerSudokuSolver(cages_5)
     start_time = time.time()
-    # 可视化会严重拖慢求解速度（约慢4000倍），建议在调试时开启
+    # 可视化会严重拖慢求解速度（约慢 4000 倍），建议在调试时开启
     solution = solver.solve(visualization=False)
     end_time = time.time()
     
     if solution:
         solver.print_solution()
-        print(f"求解时间: {end_time - start_time:.4f}秒")
+        print(f"求解时间：{end_time - start_time:.4f}秒")
     else:
         print("未找到解决方案！")
 
 ```
 :::
-

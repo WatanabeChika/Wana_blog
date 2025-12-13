@@ -1,6 +1,6 @@
 ---
 title: 爬虫进阶——知网文献下载
-excerpt: 利用Selenium库和Chrome WebDriver，实现模拟人类行为的爬虫
+excerpt: 利用 Selenium 库和 Chrome WebDriver，实现模拟人类行为的爬虫
 date: 2025-06-05
 isOriginal: true
 category: 
@@ -10,64 +10,63 @@ tag:
     - Python
 ---
 
-
 ::: warning
 本篇博客所演示的爬虫程序仅用于学习研究，请勿用于窃取数据。
 :::
 
 ::: note
-该项目和[Ofnoname](https://github.com/Ofnoname)合作完成。参见[Github](https://github.com/Ofnoname/cnki-collect)。
+该项目和 [Ofnoname](https://github.com/Ofnoname) 合作完成。参见 [Github](https://github.com/Ofnoname/cnki-collect)。
 
-Ofnoname的讲解请参阅：[【2025】简易实用知网爬虫，过程加代码](https://www.cnblogs.com/ofnoname/p/18751494)
+Ofnoname 的讲解请参阅：[【2025】简易实用知网爬虫，过程加代码](https://www.cnblogs.com/ofnoname/p/18751494)
 :::
 
-在去年关于通过BPM挑选歌曲的[文章](bpm_check.md)里，我用实际例子讲述了如何利用爬虫获取网站页面的HTML元数据，并从中获取对应信息（如链接、文字等）。然而，在更复杂的情况下，HTML元数据所提供的信息远不能达到我们的需求，且网站本身还可能带有反爬机制，使我们的自动化爬虫工具运行不了几次就会被封锁。这该如何是好？
+在去年关于通过 BPM 挑选歌曲的 [文章](bpm_check.md) 里，我用实际例子讲述了如何利用爬虫获取网站页面的 HTML 元数据，并从中获取对应信息（如链接、文字等）。然而，在更复杂的情况下，HTML 元数据所提供的信息远不能达到我们的需求，且网站本身还可能带有反爬机制，使我们的自动化爬虫工具运行不了几次就会被封锁。这该如何是好？
 
-正巧，最近我也遇到了这样一个需要爬虫解决的问题：检索[中国知网](https://www.cnki.net/)中某个关键词或期刊下的所有文献并下载。不同于[LLWiki](https://llwiki.org/)，知网的反爬措施相当到位，我们不能用类似的方法进行文献检索下载。最明显的三个问题如下：
+正巧，最近我也遇到了这样一个需要爬虫解决的问题：检索 [中国知网](https://www.cnki.net/) 中某个关键词或期刊下的所有文献并下载。不同于 [LLWiki](https://llwiki.org/)，知网的反爬措施相当到位，我们不能用类似的方法进行文献检索下载。最明显的三个问题如下：
 
-1. 搜索界面/期刊内容界面的**页面切换**不会更改URL，而是触发一个JavaScript操作。这使得我们无法通过输入特定的URL直接进入某一页，只能模拟点击按钮。
+1. 搜索界面/期刊内容界面的**页面切换**不会更改 URL，而是触发一个 JavaScript 操作。这使得我们无法通过输入特定的 URL 直接进入某一页，只能模拟点击按钮。
 
 ::: info
-反例，即页面切换会更改URL的情况如下：
+反例，即页面切换会更改 URL 的情况如下：
 
-以[Bangumi](https://bgm.tv/)为例，当我在全部动画列表中查看第二页时，可以看到URL变成了
+以 [Bangumi](https://bgm.tv/) 为例，当我在全部动画列表中查看第二页时，可以看到 URL 变成了
 
 `https://bgm.tv/anime/browser?sort=rank&page=2`
 
-这里问号后的`sort=rank`和`page=2`都可以理解成该主页面（全部动画列表）下的附加条件（按排名排序，第二页）。如果直接访问上面这条URL，能够直接进入列表第二页，无需多余点击操作。
+这里问号后的`sort=rank`和`page=2`都可以理解成该主页面（全部动画列表）下的附加条件（按排名排序，第二页）。如果直接访问上面这条 URL，能够直接进入列表第二页，无需多余点击操作。
 :::
 
-2. 文献下载界面的“pdf下载”按钮对应链接**并非直接指向文件本身**，而是跳转到另一页面后再触发文件下载。这导致直接点击该按钮能够正常开启下载流程，但在页面的HTML元数据里访问该按钮对应的链接却无法触发。
+2. 文献下载界面的“pdf 下载”按钮对应链接**并非直接指向文件本身**，而是跳转到另一页面后再触发文件下载。这导致直接点击该按钮能够正常开启下载流程，但在页面的 HTML 元数据里访问该按钮对应的链接却无法触发。
 
 3. 多次重复操作后（即使是人类），网站会不可避免地弹出**验证码**。若需自动处理验证码，则难免会用到大量复杂的计算机视觉（CV）相关知识和代码实现。
 
 不难看出，同去年相比，这次爬虫实现的难度骤增，各种已知或未知的障碍都需要一个个解决。因此，我们不得不拿出新工具、新方法，才足以应对这次的挑战。
 
 ## 准备
-- Python运行环境
-- Selenium库、BeautifulSoup库
-- WebDriver（Chrome或者firefox，文章中以Chrome webdriver为例）
+- Python 运行环境
+- Selenium 库、BeautifulSoup 库
+- WebDriver（Chrome 或者 firefox，文章中以 Chrome webdriver 为例）
 
-其中，Selenium库能够使计算机模拟人类访问浏览器时的各种操作，如鼠标点击、鼠标滚动等；而WebDriver则提供了一个Web服务器，方便对其进行自动化测试与运行。
+其中，Selenium 库能够使计算机模拟人类访问浏览器时的各种操作，如鼠标点击、鼠标滚动等；而 WebDriver 则提供了一个 Web 服务器，方便对其进行自动化测试与运行。
 
 ::: important
-为节约篇幅，以下只介绍应对挑战的关键点。至于Selenium库的基本使用、通过HTML元素获取信息等基础方法步骤则被省略。
+为节约篇幅，以下只介绍应对挑战的关键点。至于 Selenium 库的基本使用、通过 HTML 元素获取信息等基础方法步骤则被省略。
 :::
 
 ## 获取文献链接
 ### 通过搜索
-以知网搜索界面为起点，其URL为`https://kns.cnki.net/kns8s/defaultresult/index`。通过多次搜索并观察，我们发现搜索界面可以通过在URL后加入关键词参数并访问实现快速搜索。
+以知网搜索界面为起点，其 URL 为`https://kns.cnki.net/kns8s/defaultresult/index`。通过多次搜索并观察，我们发现搜索界面可以通过在 URL 后加入关键词参数并访问实现快速搜索。
 
-知网默认按“主题”搜索，若直接在URL后加入关键词，则会搜索主题为该关键词的文献；若要自定义搜索类型，则可以通过添加`&korder=`参数实现。具体的`&korder=`参数可以通过手动搜索后查看地址栏获得。如：
+知网默认按“主题”搜索，若直接在 URL 后加入关键词，则会搜索主题为该关键词的文献；若要自定义搜索类型，则可以通过添加`&korder=`参数实现。具体的`&korder=`参数可以通过手动搜索后查看地址栏获得。如：
 
 - 主题为丁真：`https://kns.cnki.net/kns8s/defaultresult/index?kw=丁真`
 - 作者为丁真：`https://kns.cnki.net/kns8s/defaultresult/index?kw=丁真&korder=AU`
 
-在搜索结果页面，我们需要提取文献链接进行后续处理。经分析页面HTML元数据，发现所有文献标题链接都有统一的类名：`<a class="fz14">`，因此我们可以使用BeautifulSoup库，直接提取所有`.fz14`类元素的链接即可。通过该元素的信息，我们保存了文献名、年代、文献详情页链接。
+在搜索结果页面，我们需要提取文献链接进行后续处理。经分析页面 HTML 元数据，发现所有文献标题链接都有统一的类名：`<a class="fz14">`，因此我们可以使用 BeautifulSoup 库，直接提取所有`.fz14`类元素的链接即可。通过该元素的信息，我们保存了文献名、年代、文献详情页链接。
 
 ![搜索界面](/assets/images/cnki-search/search.png =700x)
 
-知网默认每页显示20条结果，为提高爬取效率，我们可以将其切换为每页50条。页面上有一个控制分页数量的元素`<div id="perPageDiv">`，我们利用Selenium模拟点击此元素并选择50条即可。
+知网默认每页显示 20 条结果，为提高爬取效率，我们可以将其切换为每页 50 条。页面上有一个控制分页数量的元素`<div id="perPageDiv">`，我们利用 Selenium 模拟点击此元素并选择 50 条即可。
 
 ``` python
 # 切换每页显示数量
@@ -82,7 +81,7 @@ page_50 = WebDriverWait(driver, 10).until(
 page_50.click()
 ```
 
-当需要的数据超过单页数量时，我们需要自动翻页获取后续页面内容。知网的“下一页”按钮使用了如同`<a id="PageNext">`的元素表示，通过Selenium可以轻松模拟点击翻页，重复此过程直到达到我们设定的结果数量即可。
+当需要的数据超过单页数量时，我们需要自动翻页获取后续页面内容。知网的“下一页”按钮使用了如同`<a id="PageNext">`的元素表示，通过 Selenium 可以轻松模拟点击翻页，重复此过程直到达到我们设定的结果数量即可。
 
 ``` python
 # 模拟鼠标点击翻页
@@ -93,7 +92,7 @@ if 'disabled' not in next_button.get_attribute('class'):
     next_button.click()
 ```
 
-::: normal-demo 完整Python代码
+::: normal-demo 完整 Python 代码
 ``` python
 # Made by Ofnoname && Wanakachi
 import os
@@ -123,7 +122,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-
 def ensure_directory_exists(directory: str) -> None:
     """
     确保指定目录存在，若不存在则创建。
@@ -133,7 +131,6 @@ def ensure_directory_exists(directory: str) -> None:
         logging.debug(f"目录 {directory} 创建成功。")
     else:
         logging.debug(f"目录 {directory} 已存在。")
-
 
 def load_chrome_driver() -> webdriver.Chrome:
     """
@@ -168,7 +165,6 @@ def load_chrome_driver() -> webdriver.Chrome:
     driver_instance.refresh()
     return driver_instance
 
-
 def scrape_keyword(keyword: str, result_count: int) -> None:
     """
     根据关键词爬取搜索结果链接，并保存到指定文件中。
@@ -201,7 +197,7 @@ def scrape_keyword(keyword: str, result_count: int) -> None:
         page_50.click()
         time.sleep(2)
     except Exception as e:
-        logging.error(f"点击分页选项时出错: {e}")
+        logging.error(f"点击分页选项时出错：{e}")
 
     while len(links) < result_count:
         page_source = driver.page_source
@@ -242,7 +238,6 @@ def scrape_keyword(keyword: str, result_count: int) -> None:
 
     logging.info(f"主题为 {keyword} 的链接已保存到 {output_file}")
 
-
 def main() -> None:
     """
     主函数：确保目录存在、初始化驱动、依次爬取各关键词，并在结束后关闭驱动。
@@ -262,28 +257,27 @@ def main() -> None:
             driver.quit()
             logging.info("驱动已关闭。")
 
-
 if __name__ == "__main__":
     main()
 ```
 :::
 
 ### 通过期刊
-若需要检索已知期刊中包含的文献，则通过期刊检索更为方便。这里的URL起点是`https://navi.cnki.net/knavi/`。
+若需要检索已知期刊中包含的文献，则通过期刊检索更为方便。这里的 URL 起点是`https://navi.cnki.net/knavi/`。
 
 ::: note
-与搜索界面不同的是，使用默认的Chrome WebDriver进入该网站时可能会被识别并拦截，因此我们需要特殊的浏览器伪装措施。
+与搜索界面不同的是，使用默认的 Chrome WebDriver 进入该网站时可能会被识别并拦截，因此我们需要特殊的浏览器伪装措施。
 
-在这里，我们采用了undetected_chromedriver库，该库内置了多种伪装方法，可以有效绕过一般的反爬虫检测机制，api和原版基本相同。
+在这里，我们采用了 undetected_chromedriver 库，该库内置了多种伪装方法，可以有效绕过一般的反爬虫检测机制，api 和原版基本相同。
 :::
 
-该检索界面不支持通过URL参数直接搜索，必须手动输入关键词或ISSN进行检索。为确保搜索结果唯一且准确，推荐使用期刊的ISSN号。
+该检索界面不支持通过 URL 参数直接搜索，必须手动输入关键词或 ISSN 进行检索。为确保搜索结果唯一且准确，推荐使用期刊的 ISSN 号。
 
 进入期刊页面后，文献列表会按照年份和期号依次展示在左侧导航栏中。我们展开列表，并逐一点击该年份下的各期刊选项，最后从右侧的`<dl id="CataLogContent">`元素区域提取文献链接。
 
 ![期刊界面](/assets/images/cnki-search/journal.png =700x)
 
-::: normal-demo 完整Python代码
+::: normal-demo 完整 Python 代码
 ``` python 
 # Made by Ofnoname && Wanakachi
 import logging
@@ -323,12 +317,11 @@ def ensure_directory_exists(directory: str) -> None:
     else:
         logging.debug(f"目录 {directory} 已存在。")
 
-
 def load_chrome_driver(use_undetected: bool = True) -> webdriver.Chrome:
     """
-    加载ChromeDriver，并配置相关选项。
+    加载 ChromeDriver，并配置相关选项。
 
-    :param use_undetected: 如果为True，则使用 undetected_chromedriver，否则使用常规 webdriver.Chrome。
+    :param use_undetected: 如果为 True，则使用 undetected_chromedriver，否则使用常规 webdriver.Chrome。
     :return: Chrome WebDriver 实例。
     """
     service = Service(CHROME_DRIVER_PATH)
@@ -341,10 +334,9 @@ def load_chrome_driver(use_undetected: bool = True) -> webdriver.Chrome:
     driver_instance.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
     return driver_instance
 
-
 def process_journal(name: str, issn: str, year_range: List[int]) -> None:
     """
-    根据期刊名称和ISSN检索期刊，并收集指定年份的文章链接，将链接保存到文件中。
+    根据期刊名称和 ISSN 检索期刊，并收集指定年份的文章链接，将链接保存到文件中。
 
     :param name: 期刊名称
     :param issn: 期刊 ISSN
@@ -356,7 +348,7 @@ def process_journal(name: str, issn: str, year_range: List[int]) -> None:
         time.sleep(0.5)
         logging.info(f"正在检索期刊: {name}，ISSN: {issn}，年份范围: {year_range[0]}-{year_range[1]}")
 
-        # 选择检索方式为ISSN
+        # 选择检索方式为 ISSN
         select_element = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.ID, "txt_1_sel"))
         )
@@ -366,7 +358,7 @@ def process_journal(name: str, issn: str, year_range: List[int]) -> None:
                 option.click()
                 break
 
-        # 输入ISSN
+        # 输入 ISSN
         input_element = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.ID, "txt_1_value1"))
         )
@@ -431,7 +423,6 @@ def process_journal(name: str, issn: str, year_range: List[int]) -> None:
         driver.quit()
         logging.debug("驱动已关闭。")
 
-
 def load_journal_list(excel_file: str) -> List[Tuple[str, str]]:
     """
     从 Excel 文件中加载期刊列表。请修改这里的数据加载，根据你组织的待爬列表而定。
@@ -445,9 +436,8 @@ def load_journal_list(excel_file: str) -> List[Tuple[str, str]]:
         logging.debug(f"加载期刊数量: {len(journal_list)}")
         return journal_list
     except Exception as e:
-        logging.error(f"读取Excel文件 {excel_file} 失败: {e}")
+        logging.error(f"读取 Excel 文件 {excel_file} 失败: {e}")
         return []
-
 
 def main() -> None:
     """
@@ -461,7 +451,6 @@ def main() -> None:
         process_journal(name, issn, YEAR_RANGE)
         time.sleep(2)
 
-
 if __name__ == "__main__":
     main()
 ```
@@ -470,7 +459,7 @@ if __name__ == "__main__":
 ## 下载文献
 最后是最麻烦的一步。这里困难的点集中在处理各种验证码上。
 
-我们不采用利用CV强行通过验证码本身的方式，这会大幅增加代码的完成难度，且效果不一定显著。而是选择想办法绕过验证码，或者尽量规避验证码的出现。据多次观察，我们发现验证码会出现在两个地方：打开文献详情页时，以及点击下载弹出新窗口时。
+我们不采用利用 CV 强行通过验证码本身的方式，这会大幅增加代码的完成难度，且效果不一定显著。而是选择想办法绕过验证码，或者尽量规避验证码的出现。据多次观察，我们发现验证码会出现在两个地方：打开文献详情页时，以及点击下载弹出新窗口时。
 
 前者是一个纯前端验证码，运行`driver.execute_script("redirectNewLink()")`页面函数即可简单将其跳过，屡试不爽。
 
@@ -516,9 +505,9 @@ def simulate_human_behavior(driver: webdriver.Chrome) -> None:
 
 即使运用“拟人”算法，还是会有小概率出现漏网之鱼——触发验证码。为了做到万无一失，我们为每篇文章设置了最大重试次数，触发验证码的文献会被记录移到队列末，在一遍流程结束后再统一进行重试。只要在不超过最大重试次数的范围内下载成功即可。
 
-以上是针对稳定性和可用性的措施，至于效率上的优化，我们可以利用并发线程同时打开多个浏览器，并且视情况采用无头模式（headless），不显示浏览器UI，以提高效率。
+以上是针对稳定性和可用性的措施，至于效率上的优化，我们可以利用并发线程同时打开多个浏览器，并且视情况采用无头模式（headless），不显示浏览器 UI，以提高效率。
 
-::: normal-demo 完整Python代码
+::: normal-demo 完整 Python 代码
 ``` python
 # Made by Ofnoname && Wanakachi
 import os
