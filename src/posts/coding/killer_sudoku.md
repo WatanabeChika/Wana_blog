@@ -18,7 +18,7 @@ tag:
 
 <a id="fig-killer-sudoku"></a>
 
-![杀手数独](/assets/images/killer-sudoku/sudoku.png =500x)
+![杀手数独 =500x](/assets/images/killer-sudoku/sudoku.png)
 
 ## 人类解决杀手数独的技巧
 人类解决杀手数独的方法与解决标准数独的方法相似，常见的技巧如下：

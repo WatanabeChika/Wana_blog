@@ -64,7 +64,7 @@ Ofnoname 的讲解请参阅：[【2025】简易实用知网爬虫，过程加代
 
 在搜索结果页面，我们需要提取文献链接进行后续处理。经分析页面 HTML 元数据，发现所有文献标题链接都有统一的类名：`<a class="fz14">`，因此我们可以使用 BeautifulSoup 库，直接提取所有`.fz14`类元素的链接即可。通过该元素的信息，我们保存了文献名、年代、文献详情页链接。
 
-![搜索界面](/assets/images/cnki-search/search.png =700x)
+![搜索界面 =700x](/assets/images/cnki-search/search.png)
 
 知网默认每页显示 20 条结果，为提高爬取效率，我们可以将其切换为每页 50 条。页面上有一个控制分页数量的元素`<div id="perPageDiv">`，我们利用 Selenium 模拟点击此元素并选择 50 条即可。
 
@@ -275,7 +275,7 @@ if __name__ == "__main__":
 
 进入期刊页面后，文献列表会按照年份和期号依次展示在左侧导航栏中。我们展开列表，并逐一点击该年份下的各期刊选项，最后从右侧的`<dl id="CataLogContent">`元素区域提取文献链接。
 
-![期刊界面](/assets/images/cnki-search/journal.png =700x)
+![期刊界面 =700x](/assets/images/cnki-search/journal.png)
 
 ::: normal-demo 完整 Python 代码
 ``` python 

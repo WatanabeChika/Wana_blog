@@ -17,14 +17,14 @@ tag:
 
 mpv 自定的快捷键便几乎涵盖了整个键盘，也囊括了日常所需的几乎所有功能：音量、视频切换、快进快退，甚至有亮度、对比度、字幕偏移量等细致入微的设置。
 
-![mpv 默认键位绑定一览](/assets/images/mpv-lines/mpbindings.png =700x)
+![mpv 默认键位绑定一览 =700x](/assets/images/mpv-lines/mpbindings.png)
 
 大多数 mpv 的插件由 Lua 语言编写，其余插件由 JavaScript 语言编写。因此对其中至少一门语言进行一定程度的了解是编写 mpv 插件的必要条件。博主此次使用的是 Lua 语言。!!Lua 语言中，数组首位竟然是从 1 开始！这太反直觉了！!!
 
 ## 需求及思路
 经常看 meme 的人知道，有一种 meme 类型是：一张视频截图，下面拼接了很多接下去的台词，最后形成能够表现一整段台词的长截图。这类 meme 通常用于表现说话人的独白场景，而**台词**正是精髓所在。
 
-![JOJO4 中吉良吉影的自我介绍名场面](/assets/images/mpv-lines/lines.jpg =600x)
+![JOJO4 中吉良吉影的自我介绍名场面 =600x](/assets/images/mpv-lines/lines.jpg)
 
 这样截图的优点在于：
 1. 保留首张截图，清晰表明说话人（或视频来源）。

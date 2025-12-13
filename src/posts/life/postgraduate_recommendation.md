@@ -60,7 +60,7 @@ tag:
 !!打听到隔壁专业 32 个人推免名额发到了第 32 位。（排除放弃推免名额的和未达到修读要求的大概有 20 个名额）!!
 
 ::: details 10.2 更新 电院各专业推免率（非官方）
-![<font color=red>切勿传播</font>](/assets/images/postgraduate-recommendation/final.png =500x)
+![<font color=red>切勿传播</font> =500x](/assets/images/postgraduate-recommendation/final.png)
 :::
 
 ## 预录
