@@ -9,10 +9,10 @@ heroFullScreen: true
 bgImage: /assets/images/homepageBg.png
 tagline: 全速前進、ヨーソロー！
 projects:
-  # - icon: project
-  #   name: 项目名称
-  #   desc: 项目详细描述
-  #   link: https://你的项目链接
+  - icon: toolbox
+    name: Wana_tools
+    desc: 一些没用的妙妙小工具
+    link: https://watanabechika.github.io/Wana_tools/
 
   # - icon: link
   #   name: 链接名称

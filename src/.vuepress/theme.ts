@@ -37,17 +37,14 @@ export default hopeTheme({
     description: "随便看看吧",
     intro: "/intro.html",
     medias: {
+      Email: "wanakachi@foxmail.com",
       GitHub: "https://github.com/WatanabeChika",
       BiliBili: "https://space.bilibili.com/18259958",
+      Steam: "https://steamcommunity.com/id/Wanakachi",
       Bangumi: {
         icon: "https://bangumi.tv/img/favicon.ico",
         link: "https://bangumi.tv/user/881268",
       },
-      Wana_tools: {
-        icon: "https://watanabechika.github.io/Wana_tools/favicon.ico",
-        link: "https://watanabechika.github.io/Wana_tools",
-      },
-      // Email: "wanakachi@foxmail.com",
       // Gmail: "wachikyyou@gmail.com",
       // Baidu: "https://example.com",
       // Bitbucket: "https://example.com",
@@ -69,7 +66,6 @@ export default hopeTheme({
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
-      // Steam: "https://example.com",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
       // Weibo: "https://example.com",
@@ -81,6 +77,7 @@ export default hopeTheme({
       //   link: "https://theme-hope.vuejs.press",
       // },
     },
+    timeline: "逝者如斯夫，不舍昼夜。",
   },
 
   // 加密配置
