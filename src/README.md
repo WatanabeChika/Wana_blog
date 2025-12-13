@@ -1,6 +1,6 @@
 ---
 home: true
-layout: BlogHome
+layout: Blog
 icon: home
 title: 主页
 heroImage: /logo.png
@@ -11,7 +11,7 @@ tagline: 全速前進、ヨーソロー！
 projects:
   - icon: toolbox
     name: Wana_tools
-    desc: 一些没用的妙妙小工具
+    desc: 一些没用的妙妙工具
     link: https://watanabechika.github.io/Wana_tools/
 
   # - icon: link
