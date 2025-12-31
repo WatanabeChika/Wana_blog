@@ -37,7 +37,7 @@ tag:
 ## 从手牌窥见终场
 ### 什么是场值
 ::: note
-有关**连接召唤**的说明此处不再赘述，如不了解请参阅 [大师规则](https://ocg-rulebook.readthedocs.io/zh-cn/latest/c02/%E5%8D%A1%E7%89%87.html#id68)。
+有关**连接召唤**的说明此处不再赘述，如不了解请参阅 [大师规则](https://ocg-rulebook.readthedocs.io/zh-cn/latest/c02/%E5%8D%A1%E7%89%87.html#id70)。
 :::
 
 在利用连接召唤做场时，常常会提到**场值**这一概念。场值既可以指场上怪兽的数量，也可以指场上连接怪兽的 LINK 值总和。
