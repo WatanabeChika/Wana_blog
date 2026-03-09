@@ -42,7 +42,7 @@ export default sidebar({
       text: "其他",
       prefix: "/posts/coding/",
       collapsible: true,
-      children: ["movie_search.md", "ctf_easyrsa.md"],
+      children: ["syncplay_anime.md", "movie_search.md", "ctf_easyrsa.md"],
     },
   ],
 
