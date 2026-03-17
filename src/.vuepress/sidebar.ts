@@ -36,7 +36,7 @@ export default sidebar({
       text: "益智谜题",
       prefix: "/posts/coding/",
       collapsible: true,
-      children: ["guess_puzzle.md"],
+      children: ["envelope_puzzle.md", "guess_puzzle.md"],
     },
     {
       text: "其他",
