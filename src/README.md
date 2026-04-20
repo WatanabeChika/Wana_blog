@@ -14,10 +14,10 @@ projects:
     desc: 一些没用的妙妙工具
     link: https://watanabechika.github.io/Wana_tools/
 
-  # - icon: link
-  #   name: 链接名称
-  #   desc: 链接详细描述
-  #   link: https://链接地址
+  - icon: display
+    name: Wana_stalking
+    desc: 我的实时监控面板
+    link: https://watanabechika.github.io/Wana_stalking/
 
   # - icon: book
   #   name: 书籍名称

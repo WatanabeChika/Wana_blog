@@ -4,47 +4,9 @@ export default sidebar({
   "/": [
     "",
   ],
-  "/posts/acg/": [
-    {
-      text: "动画相关",
-      prefix: "/posts/acg/",
-      collapsible: true,
-      children: ["non_non_biyori.md", "aria_aqua.md"],
-    },
-    {
-      text: "漫画相关",
-      prefix: "/posts/acg/",
-      collapsible: true,
-      children: [],
-    },
-    {
-      text: "游戏相关",
-      prefix: "/posts/acg/",
-      collapsible: true,
-      children: ["ygomd_maliss_2.md", "ygomd_maliss.md", "ff15_radio.md", "p5r_lavenza.md", "p5r_twins.md"],
-    },
-  ],
+  "/posts/acg/": "structure",
 
-  "/posts/coding/": [
-    {
-      text: "可能实用的小玩意",
-      prefix: "/posts/coding/",
-      collapsible: true,
-      children: ["killer_sudoku.md", "cnki_search.md", "audio_effect.md", "mpv_lines.md", "bpm_check.md"],
-    },
-    {
-      text: "益智谜题",
-      prefix: "/posts/coding/",
-      collapsible: true,
-      children: ["envelope_puzzle.md", "guess_puzzle.md"],
-    },
-    {
-      text: "其他",
-      prefix: "/posts/coding/",
-      collapsible: true,
-      children: ["syncplay_anime.md", "movie_search.md", "ctf_easyrsa.md"],
-    },
-  ],
+  "/posts/coding/": "structure",
 
   "/posts/life/": "structure",
   // [

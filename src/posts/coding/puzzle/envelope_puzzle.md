@@ -263,6 +263,7 @@ $$
 ::: normal-demo Python demo
 
 ```python
+# Made by Wanakachi
 import random
 
 def should_open_third(a, b):
@@ -349,6 +350,7 @@ $$
 ::: normal-demo Python demo
 
 ```python
+# Made by Wanakachi
 from math import isclose
 import numpy as np
 

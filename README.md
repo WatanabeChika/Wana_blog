@@ -6,4 +6,4 @@
 
 ---
 
-使用vuepress-theme-hope主题搭建。
+使用 vuepress-theme-hope 主题搭建。
