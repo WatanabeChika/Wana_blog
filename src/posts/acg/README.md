@@ -10,6 +10,7 @@ index: false
 
 ## 目录
 ### 动画相关
+- [舌尖上的竹原](anime/tamayura_food.md)
 - [空气系巅峰之作，非它莫属](anime/non_non_biyori.md)
 - [火星变“水星”，真有可能吗？](anime/aria_aqua.md)
 
