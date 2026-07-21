@@ -1,1827 +1,2962 @@
 [
-  {
-    "date": "2025-01-01",
-    "song": "ワーワーワールド",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-02",
-    "song": "39 → Let's be ONE",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-01-03",
-    "song": "しかばねの踊り",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-04",
-    "song": "パラソルサイダー",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-05",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-01-06",
-    "song": "仮死化",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-07",
-    "song": "こだまことだま",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-01-08",
-    "song": "フラッグを立てろ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-01-09",
-    "song": "少女レイ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-10",
-    "song": "ねぇねぇねぇ。",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-11",
-    "song": "トンデモワンダーズ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-12",
-    "song": "シネマ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-13",
-    "song": "テトリス",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-14",
-    "song": "ユメ語るよりユメ歌おう",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-01-15",
-    "song": "Proof",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-01-16",
-    "song": "STAY FREE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-01-17",
-    "song": "ワーワーワールド",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-18",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-01-19",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-01-20",
-    "song": "心做し",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-21",
-    "song": "虚ろを扇ぐ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-22",
-    "song": "Iなんです",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-23",
-    "song": "少女レイ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-24",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-01-25",
-    "song": "トンデモワンダーズ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-26",
-    "song": "テトリス",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-27",
-    "song": "春が来てぼくら",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-01-28",
-    "song": "アイディスマイル",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-29",
-    "song": "仮死化",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-01-30",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-01-31",
-    "song": "ツギハギスタッカート",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-01",
-    "song": "アンサー",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-02",
-    "song": "アイディスマイル",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-03",
-    "song": "春が来てぼくら",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-04",
-    "song": "STAY FREE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-05",
-    "song": "PJSK：登入界面bgm",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-02-06",
-    "song": "Legato",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-02-07",
-    "song": "さよならバイスタンダー",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-08",
-    "song": "STAY FREE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-09",
-    "song": "春が来てぼくら",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-10",
-    "song": "STAY FREE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-11",
-    "song": "ステンドノクターン",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-12",
-    "song": "I AM STANDING",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-13",
-    "song": "アイノマテリアル",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-14",
-    "song": "BLOOM OF COLORS → しかばねの踊り",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-02-15",
-    "song": "春日影",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-16",
-    "song": "ファンファーレ！！！",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-02-17",
-    "song": "迷星叫",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-18",
-    "song": "Colors Flying High",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-02-19",
-    "song": "余命2:30",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-20",
-    "song": "secret base ~君がくれたもの~",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-21",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-02-22",
-    "song": "INTERNET YAMERO",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-02-23",
-    "song": "デーモンロード",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-24",
-    "song": "ouroboros -twin stroke of the end-",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-02-25",
-    "song": "はぐ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-26",
-    "song": "碧天伴走",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-02-27",
-    "song": "卒業",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-02-28",
-    "song": "ウミユリ海底譚",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-01",
-    "song": "Virus Funk",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-03-02",
-    "song": "メランコリック",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-03",
-    "song": "FREELY TOMORROW",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-04",
-    "song": "メズマライザー",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-05",
-    "song": "ハッピー至上主義！",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-03-06",
-    "song": "㋰責任集合体",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-07",
-    "song": "ツギハギスタッカート",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-08",
-    "song": "DADDY! DADDY! DO!",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-03-09",
-    "song": "ワーワーワールド",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-10",
-    "song": "アイノ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-11",
-    "song": "バグ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-12",
-    "song": "踊",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-13",
-    "song": "六兆年と一夜物語",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-14",
-    "song": "未完成ストライド",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-03-15",
-    "song": "卒業",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-16",
-    "song": "Iなんです",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-17",
-    "song": "恋になりたいAQUARIUM",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-03-18",
-    "song": "Poka Poka 日和",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-03-19",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-03-20",
-    "song": "88☆彡",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-21",
-    "song": "トンデモワンダーズ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-22",
-    "song": "しかばねの踊り",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-23",
-    "song": "㋰責任集合体",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-24",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-03-25",
-    "song": "愛♡スクリ～ム！",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-03-26",
-    "song": "ワーワーワールド",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-27",
-    "song": "余命2:30",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-28",
-    "song": "テレパシ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-29",
-    "song": "ワールズエンド・ダンスホール",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-03-30",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-03-31",
-    "song": "ツバサ・ラ・リベルテ",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-04-01",
-    "song": "パラソルサイダー",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-02",
-    "song": "Flyway",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-03",
-    "song": "（不存在的曲调）",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-04-04",
-    "song": "アイディスマイル",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-05",
-    "song": "未完成ストライド",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-06",
-    "song": "君にまつわるミステリー",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-07",
-    "song": "ポジティブ☆ダンスタイム",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-08",
-    "song": "ダーリン",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-09",
-    "song": "おかえり",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-10",
-    "song": "グッバイ宣言",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-11",
-    "song": "DEEPNESS",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-04-12",
-    "song": "Snow halation",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-13",
-    "song": "卒業",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-14",
-    "song": "白金ディスコ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-15",
-    "song": "Let's be ONE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-16",
-    "song": "I I I",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-04-17",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-04-18",
-    "song": "Rainbow",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-19",
-    "song": "卒業",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-20",
-    "song": "白金ディスコ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-04-21",
-    "song": "皇室战争Null服：加载界面bgm",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-04-22",
-    "song": "I I I",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-04-23",
-    "song": "ビターチョコデコレーション",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-24",
-    "song": "グッバイ宣言",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-25",
-    "song": "春嵐",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-26",
-    "song": "Be The MUSIC!",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-27",
-    "song": "ワーワーワールド",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-28",
-    "song": "アイドル新鋭隊",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-29",
-    "song": "仮死化",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-04-30",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-05-01",
-    "song": "群青讃歌",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-02",
-    "song": "トンデモワンダーズ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-03",
-    "song": "39",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-04",
-    "song": "ステンドノクターン",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-05",
-    "song": "ワーワーワールド",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-06",
-    "song": "88☆彡",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-07",
-    "song": "さよならバイスタンダー",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-08",
-    "song": "永久hours",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-05-09",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-05-10",
-    "song": "AURORA FLOWER",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-05-11",
-    "song": "STAY FREE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-12",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-05-13",
-    "song": "猛独が襲う",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-14",
-    "song": "㋰責任集合体",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-15",
-    "song": "青春コンプレックス",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-16",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-05-17",
-    "song": "猛独が襲う",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-18",
-    "song": "こだまことだま",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-19",
-    "song": "This Club is Not 4 U",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-05-20",
-    "song": "テレパシ & 六兆年と一夜物語",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-21",
-    "song": "ふゆびより",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-22",
-    "song": "宇宙散歩",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-23",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-05-24",
-    "song": "白金ディスコ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-25",
-    "song": "ユキソラ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-05-26",
-    "song": "Chocolate insomnia",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-27",
-    "song": "なにが悪い",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-28",
-    "song": "花の塔",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-29",
-    "song": "翼をください",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-30",
-    "song": "君の知らない物語",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-05-31",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-06-01",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-06-02",
-    "song": "君の知らない物語",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-03",
-    "song": "ヴァンパイア",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-06-04",
-    "song": "雨降花",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-05",
-    "song": "なにが悪い",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-06",
-    "song": "ロミオとシンデレラ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-06-07",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-06-08",
-    "song": "ツギハギスタッカート",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-06-09",
-    "song": "なにが悪い",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-10",
-    "song": "Brainiac Maniac",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-06-11",
-    "song": "群青",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-06-12",
-    "song": "仮面ライダーBLACK (Cover)",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-13",
-    "song": "君の知らない物語",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-14",
-    "song": "鈴がなる日",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-06-15",
-    "song": "つぎはぎもよう",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-16",
-    "song": "メルティランドナイトメア",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-06-17",
-    "song": "ROCK OVER JAPAN",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-18",
-    "song": "群青讃歌",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-06-19",
-    "song": "ROCK OVER JAPAN",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-20",
-    "song": "Fly Me to The Star",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-21",
-    "song": "DEAR FUTURE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-22",
-    "song": "スリピス",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-23",
-    "song": "Lemon",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-06-24",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-06-25",
-    "song": "アイドル新鋭隊",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-06-26",
-    "song": "恋愛サーキュレーション",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-27",
-    "song": "VORACITY",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-28",
-    "song": "扉を開けてベルを鳴らそう",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-06-29",
-    "song": "劣等上等",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-06-30",
-    "song": "夏色プレゼント",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-01",
-    "song": "ki-ringtone",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-07-02",
-    "song": "ようこそジャパリパークへ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-03",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-07-04",
-    "song": "オレンジミント",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-05",
-    "song": "ビバハピ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-07-06",
-    "song": "ツギハギスタッカート",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-07-07",
-    "song": "青春コンプレックス",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-08",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-07-09",
-    "song": "I I I",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-07-10",
-    "song": "トラフィック・ジャム",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-07-11",
-    "song": "猛独が襲う",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-07-12",
-    "song": "シャルル - STUDY WITH MIKU ver. -",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-07-13",
-    "song": "セカイ - STUDY WITH MIKU ver. -",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-07-14",
-    "song": "きゅびびびびずむ",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-07-15",
-    "song": "雨降花",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-16",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-07-17",
-    "song": "Oshama Scramble!",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-07-18",
-    "song": "夏色プレゼント",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-19",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-07-20",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-07-21",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-07-22",
-    "song": "アイロニ",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-07-23",
-    "song": "SAKURAスキップ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-24",
-    "song": "VORACITY",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-25",
-    "song": "INTERNET YAMERO",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-07-26",
-    "song": "ようこそジャパリパークへ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-27",
-    "song": "熱き決闘者たち",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-28",
-    "song": "29980円",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-07-29",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-07-30",
-    "song": "熱き決闘者たち",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-07-31",
-    "song": "超常マイマイン",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-08-01",
-    "song": "スピラーレ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-02",
-    "song": "Villain Virus",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-03",
-    "song": "サイエンス",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-08-04",
-    "song": "夕立方程式",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-05",
-    "song": "secret base ~君がくれたもの~",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-06",
-    "song": "糖果色恋爱学",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-07",
-    "song": "ミモザ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-08",
-    "song": "本能スピード",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-09",
-    "song": "ロミオとシンデレラ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-08-10",
-    "song": "流星のパルス",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-08-11",
-    "song": "8bit Adventurer",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-12",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-08-13",
-    "song": "Hacking to the Gate",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-14",
-    "song": "捜査 ～核心 2001",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-08-15",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-08-16",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-08-17",
-    "song": "Sun Is Coming Up",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-18",
-    "song": "GOODRAGE",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-19",
-    "song": "Spasmodic",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-20",
-    "song": "Clear Mind",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-21",
-    "song": "大江戸戦士トノサマン",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-08-22",
-    "song": "Proof of being alive",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-08-23",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-08-24",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-08-25",
-    "song": "游戏王Master Duel：大厅bgm",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-08-26",
-    "song": "福音",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-27",
-    "song": "Hello",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-28",
-    "song": "Save Yourself",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-08-29",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-08-30",
-    "song": "fast love",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-08-31",
-    "song": "Fly Me to the Star",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-01",
-    "song": "失恋ソング沢山聴いて 泣いてばかりの私はもう。",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-02",
-    "song": "MIRACLE WAVE",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-03",
-    "song": "ただいま",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-04",
-    "song": "Worlders",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-09-05",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-09-06",
-    "song": "SAKURAスキップ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-07",
-    "song": "横顔",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-08",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-09-09",
-    "song": "花の塔",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-10",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-09-11",
-    "song": "secret base ~君がくれたもの~",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-12",
-    "song": "CHASE!",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-13",
-    "song": "Take Over",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-09-14",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-09-15",
-    "song": "Staple Stable",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-16",
-    "song": "パラソルサイダー",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-09-17",
-    "song": "君の知らない物語",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-18",
-    "song": "はるのとなり",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-19",
-    "song": "横颜",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-20",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-09-21",
-    "song": "LUCKY",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-22",
-    "song": "アイドル新鋭隊",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-09-23",
-    "song": "ザムザ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-09-24",
-    "song": "本能スピード",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-09-25",
-    "song": "なないろびより",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-26",
-    "song": "テレキャスタービーボーイ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-09-27",
-    "song": "粉骨砕身カジノゥ",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-09-28",
-    "song": "Venus Line",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-29",
-    "song": "azure",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-09-30",
-    "song": "unravel",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-01",
-    "song": "卒業",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-10-02",
-    "song": "アンサンブル",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-03",
-    "song": "ヨダカ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-04",
-    "song": "端程山",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-10-05",
-    "song": "逆转裁判123 成步堂精选集：主界面bgm",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-10-06",
-    "song": "DREAM SOLISTER",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-07",
-    "song": "I want You",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-10-08",
-    "song": "霧周途",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-10-09",
-    "song": "蜘蛛の糸",
-    "type": "音ゲー曲"
-  },
-  {
-    "date": "2025-10-10",
-    "song": "ReCoda",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-11",
-    "song": "D City Rock",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-12",
-    "song": "CHASE!",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-13",
-    "song": "Worlders",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-10-14",
-    "song": "宇宙散歩",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-10-15",
-    "song": "夜隠染",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-10-16",
-    "song": "游戏王Master Duel：#9场地（魔偶甜点/鬼计）bgm",
-    "type": "SPECIAL"
-  },
-  {
-    "date": "2025-10-17",
-    "song": "星が泳ぐ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-18",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-10-19",
-    "song": "So Precious",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-20",
-    "song": "クスシキ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-21",
-    "song": "星座になれたら",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-22",
-    "song": "STEP by STEP UP↑↑↑↑",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-23",
-    "song": "過惰幻",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-10-24",
-    "song": "クスシキ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-25",
-    "song": "メロメロイド",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-10-26",
-    "song": "愛♡スクリ～ム！",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-10-27",
-    "song": "ローリンガール",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-10-28",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-10-29",
-    "song": "ふゆびより",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-10-30",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-10-31",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-11-01",
-    "song": "カフネ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-02",
-    "song": "熱き決闘者たち",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-03",
-    "song": "STEP by STEP UP↑↑↑↑",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-04",
-    "song": "クスシキ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-05",
-    "song": "ロミオとシンデレラ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-11-06",
-    "song": "乙女解剖",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-11-07",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-11-08",
-    "song": "LUCKY",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-09",
-    "song": "only my railgun",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-10",
-    "song": "ユキソラ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-11-11",
-    "song": "霧周途",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-11-12",
-    "song": "君の知らない物語",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-13",
-    "song": "残響散歌",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-14",
-    "song": "ナイショの話",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-15",
-    "song": "I Feel Fine!!",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-11-16",
-    "song": "失恋ソング沢山聴いて 泣いてばかりの私はもう。",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-17",
-    "song": "顔",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-18",
-    "song": "乙女解剖",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-11-19",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-11-20",
-    "song": "Glorious Moment！",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-11-21",
-    "song": "39",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-11-22",
-    "song": "メランコリック",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-11-23",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-11-24",
-    "song": "ビューティフルデイズ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-25",
-    "song": "Worlders",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-11-26",
-    "song": "STEP by STEP UP↑↑↑↑",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-27",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-11-28",
-    "song": "オレンジミント",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-11-29",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-11-30",
-    "song": "I love you 私の君",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-12-01",
-    "song": "名前のない怪物",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-02",
-    "song": "Glossy:MMM",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-03",
-    "song": "ココロオドル",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-12-04",
-    "song": "JOINT",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-05",
-    "song": "残響散歌",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-06",
-    "song": "Overlap",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-07",
-    "song": "Out Of Control",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-08",
-    "song": "緋色の空",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-09",
-    "song": "I'll believe",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-10",
-    "song": "動く、動く",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-11",
-    "song": "perfect slumbers",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-12",
-    "song": "∞",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-13",
-    "song": "僕らの世代!",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-12-14",
-    "song": "Aqua Room",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-12-15",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-12-16",
-    "song": "NEWings",
-    "type": "GAME MUSIC"
-  },
-  {
-    "date": "2025-12-17",
-    "song": "名前のない怪物",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-18",
-    "song": "88☆彡",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-12-19",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-12-20",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-12-21",
-    "song": "限りなく灰色へ",
-    "type": "VOCALOID"
-  },
-  {
-    "date": "2025-12-22",
-    "song": "/",
-    "type": "/"
-  },
-  {
-    "date": "2025-12-23",
-    "song": "ふゆびより",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-24",
-    "song": "Daisy",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-25",
-    "song": "夏色プレゼント",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-26",
-    "song": "Over The Next Rainbow",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-27",
-    "song": "I'll believe",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-28",
-    "song": "White Delight",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-12-29",
-    "song": "異次元★♥BIGBANG",
-    "type": "J-POP/ROCK"
-  },
-  {
-    "date": "2025-12-30",
-    "song": "ススメ→トゥモロウ",
-    "type": "アニソン"
-  },
-  {
-    "date": "2025-12-31",
-    "song": "きっと青春が聞こえる",
-    "type": "アニソン"
-  }
+    {
+        "date": "2025-01-01",
+        "songCount": 1,
+        "title": "ワーワーワールド",
+        "artist": "Giga\/Mitchie M\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-02",
+        "songCount": 2,
+        "title": "39",
+        "artist": "DECO*27\/sasakure.UK\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID",
+        "title2": "Let's be ONE",
+        "artist2": "Liella!",
+        "sourceType2": "NETEASE",
+        "remoteId2": 2626076851,
+        "uri2": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2626076851.mp3",
+        "albumArtUri2": "https:\/\/p4.music.126.net\/AQOdqD6LCdZNIZxHN3i7dA==\/109951169951738763.jpg",
+        "category2": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-01-03",
+        "songCount": 1,
+        "title": "しかばねの踊り",
+        "artist": "きくお\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-04",
+        "songCount": 1,
+        "title": "パラソルサイダー (feat. 初音ミク)",
+        "artist": "ナナホシ管弦楽団\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-05",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-01-06",
+        "songCount": 1,
+        "title": "仮死化 (feat. 初音ミク)",
+        "artist": "遼遼\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-07",
+        "songCount": 1,
+        "title": "こだまことだま",
+        "artist": "nano.RIPE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-01-08",
+        "songCount": 1,
+        "title": "フラッグを立てろ",
+        "artist": "YUKI",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-01-09",
+        "songCount": 1,
+        "title": "少女レイ",
+        "artist": "みきとP\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-10",
+        "songCount": 1,
+        "title": "ねぇねぇねぇ。",
+        "artist": "ピノキオピー\/鏡音リン\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-11",
+        "songCount": 1,
+        "title": "トンデモワンダーズ",
+        "artist": "sasakure.UK\/初音ミク\/KAITO",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-12",
+        "songCount": 1,
+        "title": "シネマ",
+        "artist": "Ayase\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-13",
+        "songCount": 1,
+        "title": "テトリス",
+        "artist": "柊マグネタイト\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-14",
+        "songCount": 1,
+        "title": "ユメ語るよりユメ歌おう",
+        "artist": "Aqours",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-01-15",
+        "songCount": 1,
+        "title": "Proof",
+        "artist": "DOLLCHESTRA",
+        "sourceType": "NETEASE",
+        "remoteId": 2621676932,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2621676932.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/kyYUENfvkUQpCWXESDPTAA==\/109951169911514516.jpg",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-01-16",
+        "songCount": 1,
+        "title": "STAY FREE",
+        "artist": "Machico",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-01-17",
+        "songCount": 1,
+        "title": "ワーワーワールド",
+        "artist": "Giga\/Mitchie M\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-18",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-01-19",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-01-20",
+        "songCount": 1,
+        "title": "心做し",
+        "artist": "GUMI\/一之瀬ユウ",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-21",
+        "songCount": 1,
+        "title": "虚ろを扇ぐ(VOCALOID ver.)",
+        "artist": "獅子志司\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-22",
+        "songCount": 1,
+        "title": "Iなんです",
+        "artist": "れるりり\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-23",
+        "songCount": 1,
+        "title": "少女レイ",
+        "artist": "みきとP\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-24",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-01-25",
+        "songCount": 1,
+        "title": "トンデモワンダーズ",
+        "artist": "sasakure.UK\/初音ミク\/KAITO",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-26",
+        "songCount": 1,
+        "title": "テトリス",
+        "artist": "柊マグネタイト\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-27",
+        "songCount": 1,
+        "title": "春が来てぼくら",
+        "artist": "UNISON SQUARE GARDEN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-01-28",
+        "songCount": 1,
+        "title": "アイディスマイル (feat. 初音ミク&鏡音リン)",
+        "artist": "とあ\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-29",
+        "songCount": 1,
+        "title": "仮死化 (feat. 初音ミク)",
+        "artist": "遼遼\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-01-30",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-01-31",
+        "songCount": 1,
+        "title": "ツギハギスタッカート",
+        "artist": "とあ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-01",
+        "songCount": 1,
+        "title": "アンサー",
+        "artist": "BUMP OF CHICKEN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-02",
+        "songCount": 1,
+        "title": "アイディスマイル (feat. 初音ミク&鏡音リン)",
+        "artist": "とあ\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-03",
+        "songCount": 1,
+        "title": "春が来てぼくら",
+        "artist": "UNISON SQUARE GARDEN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-04",
+        "songCount": 1,
+        "title": "STAY FREE",
+        "artist": "Machico",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-05",
+        "songCount": 1,
+        "title": "PJSK：登入界面bgm",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-SPECIAL"
+    },
+    {
+        "date": "2025-02-06",
+        "songCount": 1,
+        "title": "Legato",
+        "artist": "蓮ノ空女学院スクールアイドルクラブ",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-02-07",
+        "songCount": 1,
+        "title": "さよならバイスタンダー",
+        "artist": "YUKI",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-08",
+        "songCount": 1,
+        "title": "STAY FREE",
+        "artist": "Machico",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-09",
+        "songCount": 1,
+        "title": "春が来てぼくら",
+        "artist": "UNISON SQUARE GARDEN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-10",
+        "songCount": 1,
+        "title": "STAY FREE",
+        "artist": "Machico",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-11",
+        "songCount": 1,
+        "title": "ステンドノクターン",
+        "artist": "とあ\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-12",
+        "songCount": 1,
+        "title": "I AM STANDING",
+        "artist": "RUANN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-13",
+        "songCount": 1,
+        "title": "アイノマテリアル",
+        "artist": "Junky\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-14",
+        "songCount": 2,
+        "title": "BLOOM OF COLORS",
+        "artist": "Aqours\/日笠陽子",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン",
+        "title2": "しかばねの踊り",
+        "artist2": "きくお\/初音ミク",
+        "sourceType2": "LOCAL",
+        "category2": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-15",
+        "songCount": 1,
+        "title": "春日影 (MyGO!!!!! ver.)",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-16",
+        "songCount": 1,
+        "title": "ファンファーレ！！！",
+        "artist": "みらくらぱーく！",
+        "sourceType": "NETEASE",
+        "remoteId": 2622357426,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2622357426.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/ghva09rR7cG3y7YFyi-4jQ==\/109951169917171985.jpg",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-02-17",
+        "songCount": 1,
+        "title": "迷星叫",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-18",
+        "songCount": 1,
+        "title": "Colors Flying High",
+        "artist": "Lyn",
+        "sourceType": "NETEASE",
+        "remoteId": 2655083909,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2655083909.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/mbanr0AKu5T8ZezPzS07Ww==\/109951170737840099.jpg",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-02-19",
+        "songCount": 1,
+        "title": "余命2:30",
+        "artist": "ピノキオピー\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-20",
+        "songCount": 1,
+        "title": "secret base ~君がくれたもの~",
+        "artist": "SILENT SIREN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-21",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-02-22",
+        "songCount": 1,
+        "title": "INTERNET YAMERO",
+        "artist": "NEEDY GIRL OVERDOSE\/KOTOKO\/Aiobahn +81",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-02-23",
+        "songCount": 1,
+        "title": "デーモンロード",
+        "artist": "kanaria\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-24",
+        "songCount": 1,
+        "title": "Ouroboros -Twin Stroke Of The End-",
+        "artist": "Cranky",
+        "sourceType": "NETEASE",
+        "remoteId": 2614406528,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2614406528.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/Qgyt3CRpjy-r-YJmMIgR9Q==\/109951169845730486.jpg",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-02-25",
+        "songCount": 1,
+        "title": "はぐ (feat. 初音ミク & 可不)",
+        "artist": "MIMI\/初音ミク\/可不",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-26",
+        "songCount": 1,
+        "title": "碧天伴走",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-02-27",
+        "songCount": 1,
+        "title": "卒業",
+        "artist": "内緒のピアス\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-02-28",
+        "songCount": 1,
+        "title": "ウミユリ海底譚",
+        "artist": "初音ミク\/n-buna",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-01",
+        "songCount": 1,
+        "title": "Virus Funk",
+        "artist": "Nhato",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-03-02",
+        "songCount": 1,
+        "title": "メランコリック",
+        "artist": "Junky\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-03",
+        "songCount": 1,
+        "title": "FREELY TOMORROW",
+        "artist": "Mitchie M\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-04",
+        "songCount": 1,
+        "title": "メズマライザー (feat. 初音ミク&重音テト)",
+        "artist": "サツキ\/初音ミク\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-05",
+        "songCount": 1,
+        "title": "ハッピー至上主義！",
+        "artist": "かほめぐ♡じぇらーと",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-03-06",
+        "songCount": 1,
+        "title": "㋰責任集合体",
+        "artist": "マサラダ\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-07",
+        "songCount": 1,
+        "title": "ツギハギスタッカート",
+        "artist": "とあ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-08",
+        "songCount": 1,
+        "title": "DADDY! DADDY! DO!",
+        "artist": "鈴木雅之\/鈴木愛理",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-03-09",
+        "songCount": 1,
+        "title": "ワーワーワールド",
+        "artist": "Giga\/Mitchie M\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-10",
+        "songCount": 1,
+        "title": "アイノ (feat. 初音ミク)",
+        "artist": "とあ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-11",
+        "songCount": 1,
+        "title": "バグ",
+        "artist": "かいりきベア\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-12",
+        "songCount": 1,
+        "title": "踊",
+        "artist": "Ado",
+        "sourceType": "NETEASE",
+        "remoteId": 1840383399,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=1840383399.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/sLCOHCInIaGA7eVNse_cUA==\/109951165925556769.jpg",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-13",
+        "songCount": 1,
+        "title": "六兆年と一夜物語",
+        "artist": "KEMU VOXX\/IA",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-14",
+        "songCount": 1,
+        "title": "未完成ストライド",
+        "artist": "こだまさおり",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-03-15",
+        "songCount": 1,
+        "title": "卒業",
+        "artist": "内緒のピアス\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-16",
+        "songCount": 1,
+        "title": "Iなんです",
+        "artist": "れるりり\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-17",
+        "songCount": 1,
+        "title": "恋になりたいAQUARIUM",
+        "artist": "Aqours",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-03-18",
+        "songCount": 1,
+        "title": "Poka Poka 日和",
+        "artist": "大西亜玖璃",
+        "sourceType": "NETEASE",
+        "remoteId": 2706593200,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2706593200.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/7nbcN2VulkUFTvpMzyYuuQ==\/109951171003231476.jpg",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-03-19",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-03-20",
+        "songCount": 1,
+        "title": "88☆彡 (feat. 初音ミク&KAITO)",
+        "artist": "まらしぃ\/堀江晶太\/初音ミク\/KAITO",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-21",
+        "songCount": 1,
+        "title": "トンデモワンダーズ",
+        "artist": "sasakure.UK\/初音ミク\/KAITO",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-22",
+        "songCount": 1,
+        "title": "しかばねの踊り",
+        "artist": "きくお\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-23",
+        "songCount": 1,
+        "title": "㋰責任集合体",
+        "artist": "マサラダ\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-24",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-03-25",
+        "songCount": 1,
+        "title": "愛♡スクリ～ム！",
+        "artist": "AiScReam",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-03-26",
+        "songCount": 1,
+        "title": "ワーワーワールド",
+        "artist": "Giga\/Mitchie M\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-27",
+        "songCount": 1,
+        "title": "余命2:30",
+        "artist": "ピノキオピー\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-28",
+        "songCount": 1,
+        "title": "テレパシ",
+        "artist": "DECO*27\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-29",
+        "songCount": 1,
+        "title": "ワールズエンド・ダンスホール",
+        "artist": "wowaka\/巡音ルカ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-03-30",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-03-31",
+        "songCount": 1,
+        "title": "ツバサ・ラ・リベルテ",
+        "artist": "蓮ノ空女学院スクールアイドルクラブ",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-04-01",
+        "songCount": 1,
+        "title": "パラソルサイダー (feat. 初音ミク)",
+        "artist": "ナナホシ管弦楽団\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-02",
+        "songCount": 1,
+        "title": "Flyway (feat. 星乃一歌&天馬咲希&望月穂波&日野森志歩&鏡音レン)",
+        "artist": "Leo\/need",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-03",
+        "songCount": 1,
+        "title": "不存在的曲调",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-SPECIAL"
+    },
+    {
+        "date": "2025-04-04",
+        "songCount": 1,
+        "title": "アイディスマイル (feat. 初音ミク&鏡音リン)",
+        "artist": "とあ\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-05",
+        "songCount": 1,
+        "title": "未完成ストライド",
+        "artist": "こだまさおり",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-04-06",
+        "songCount": 1,
+        "title": "君にまつわるミステリー",
+        "artist": "佐藤聡美\/茅野愛衣",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-04-07",
+        "songCount": 1,
+        "title": "ポジティブ☆ダンスタイム",
+        "artist": "キノシタ\/音街ウナ\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-08",
+        "songCount": 1,
+        "title": "ダーリン",
+        "artist": "MARETU\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-09",
+        "songCount": 1,
+        "title": "おかえり",
+        "artist": "小岩井ことり\/村川梨衣\/佐倉綾音\/阿澄佳奈",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-04-10",
+        "songCount": 1,
+        "title": "グッバイ宣言",
+        "artist": "Chinozo",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-11",
+        "songCount": 1,
+        "title": "DEEPNESS",
+        "artist": "蓮ノ空女学院スクールアイドルクラブ",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-04-12",
+        "songCount": 1,
+        "title": "Snow halation",
+        "artist": "μ's",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-04-13",
+        "songCount": 1,
+        "title": "卒業",
+        "artist": "内緒のピアス\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-14",
+        "songCount": 1,
+        "title": "白金ディスコ",
+        "artist": "井口裕香",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-04-15",
+        "songCount": 1,
+        "title": "Let's be ONE",
+        "artist": "Liella!",
+        "sourceType": "NETEASE",
+        "remoteId": 2626076851,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2626076851.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/AQOdqD6LCdZNIZxHN3i7dA==\/109951169951738763.jpg",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-04-16",
+        "songCount": 1,
+        "title": "I I I",
+        "artist": "宝鐘マリン\/Kobo Kanaeru",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-04-17",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-04-18",
+        "songCount": 1,
+        "title": "Rainbow",
+        "artist": "ROUND TABLE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-04-19",
+        "songCount": 1,
+        "title": "卒業",
+        "artist": "内緒のピアス\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-20",
+        "songCount": 1,
+        "title": "白金ディスコ",
+        "artist": "井口裕香",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-04-21",
+        "songCount": 1,
+        "title": "皇室战争Null服：加载界面bgm",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-SPECIAL"
+    },
+    {
+        "date": "2025-04-22",
+        "songCount": 1,
+        "title": "I I I",
+        "artist": "宝鐘マリン\/Kobo Kanaeru",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-04-23",
+        "songCount": 1,
+        "title": "ビターチョコデコレーション",
+        "artist": "syudou\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-24",
+        "songCount": 1,
+        "title": "グッバイ宣言",
+        "artist": "Chinozo",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-25",
+        "songCount": 1,
+        "title": "春嵐",
+        "artist": "john\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-26",
+        "songCount": 1,
+        "title": "Be The MUSIC! (feat. 初音ミク)",
+        "artist": "キノシタ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-27",
+        "songCount": 1,
+        "title": "ワーワーワールド",
+        "artist": "Giga\/Mitchie M\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-28",
+        "songCount": 1,
+        "title": "アイドル新鋭隊 (feat. 花里みのり&桐谷遥&桃井愛莉&日野森雫&初音ミク)",
+        "artist": "Mitchie M\/MORE MORE JUMP！\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-29",
+        "songCount": 1,
+        "title": "仮死化 (feat. 初音ミク)",
+        "artist": "遼遼\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-04-30",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-05-01",
+        "songCount": 1,
+        "title": "群青讃歌",
+        "artist": "Eve\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-02",
+        "songCount": 1,
+        "title": "トンデモワンダーズ",
+        "artist": "sasakure.UK\/初音ミク\/KAITO",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-03",
+        "songCount": 1,
+        "title": "39",
+        "artist": "DECO*27\/sasakure.UK\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-04",
+        "songCount": 1,
+        "title": "ステンドノクターン",
+        "artist": "とあ\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-05",
+        "songCount": 1,
+        "title": "ワーワーワールド",
+        "artist": "Giga\/Mitchie M\/初音ミク\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-06",
+        "songCount": 1,
+        "title": "88☆彡 (feat. 初音ミク&KAITO)",
+        "artist": "まらしぃ\/堀江晶太\/初音ミク\/KAITO",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-07",
+        "songCount": 1,
+        "title": "さよならバイスタンダー",
+        "artist": "YUKI",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-08",
+        "songCount": 1,
+        "title": "永久hours",
+        "artist": "Aqours",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-05-09",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-05-10",
+        "songCount": 1,
+        "title": "AURORA FLOWER",
+        "artist": "スリーズブーケ",
+        "sourceType": "NETEASE",
+        "remoteId": 2670005941,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2670005941.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/NWKtWRxleaH5E8UvHOIKGg==\/109951170430912261.jpg",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-05-11",
+        "songCount": 1,
+        "title": "STAY FREE",
+        "artist": "Machico",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-12",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-05-13",
+        "songCount": 1,
+        "title": "猛独が襲う",
+        "artist": "初音ミク\/一二三",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-14",
+        "songCount": 1,
+        "title": "㋰責任集合体",
+        "artist": "マサラダ\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-15",
+        "songCount": 1,
+        "title": "青春コンプレックス",
+        "artist": "結束バンド",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-16",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-05-17",
+        "songCount": 1,
+        "title": "猛独が襲う",
+        "artist": "初音ミク\/一二三",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-18",
+        "songCount": 1,
+        "title": "こだまことだま",
+        "artist": "nano.RIPE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-19",
+        "songCount": 1,
+        "title": "This Club is Not 4 U",
+        "artist": "EmoCosine",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-05-20",
+        "songCount": 2,
+        "title": "テレパシ",
+        "artist": "DECO*27\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID",
+        "title2": "六兆年と一夜物語",
+        "artist2": "KEMU VOXX\/IA",
+        "sourceType2": "LOCAL",
+        "category2": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-05-21",
+        "songCount": 1,
+        "title": "ふゆびより",
+        "artist": "佐々木恵梨",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-22",
+        "songCount": 1,
+        "title": "宇宙散歩",
+        "artist": "DECO*27\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-23",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-05-24",
+        "songCount": 1,
+        "title": "白金ディスコ",
+        "artist": "井口裕香",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-25",
+        "songCount": 1,
+        "title": "ユキソラ",
+        "artist": "とあ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-05-26",
+        "songCount": 1,
+        "title": "Chocolate insomnia",
+        "artist": "堀江由衣",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-27",
+        "songCount": 1,
+        "title": "なにが悪い",
+        "artist": "結束バンド",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-28",
+        "songCount": 1,
+        "title": "花の塔",
+        "artist": "さユり",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-29",
+        "songCount": 1,
+        "title": "翼をください",
+        "artist": "林原めぐみ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-30",
+        "songCount": 1,
+        "title": "君の知らない物語",
+        "artist": "supercell",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-05-31",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-06-01",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-06-02",
+        "songCount": 1,
+        "title": "君の知らない物語",
+        "artist": "supercell",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-03",
+        "songCount": 1,
+        "title": "ヴァンパイア",
+        "artist": "DECO*27\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-06-04",
+        "songCount": 1,
+        "title": "雨降花",
+        "artist": "牧野由依",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-05",
+        "songCount": 1,
+        "title": "なにが悪い",
+        "artist": "結束バンド",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-06",
+        "songCount": 1,
+        "title": "ロミオとシンデレラ",
+        "artist": "doriko\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-06-07",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-06-08",
+        "songCount": 1,
+        "title": "ツギハギスタッカート",
+        "artist": "とあ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-06-09",
+        "songCount": 1,
+        "title": "なにが悪い",
+        "artist": "結束バンド",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-10",
+        "songCount": 1,
+        "title": "Brainiac Maniac",
+        "artist": "Laura Shigihara",
+        "sourceType": "NETEASE",
+        "remoteId": 3019702,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=3019702.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/8ZScS5RBR1ibMCYDr-YYdw==\/109951167480957763.jpg",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-06-11",
+        "songCount": 1,
+        "title": "群青",
+        "artist": "YOASOBI",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-06-12",
+        "songCount": 1,
+        "title": "仮面ライダーBLACK (Cover)",
+        "artist": "Peaky P-key",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-13",
+        "songCount": 1,
+        "title": "君の知らない物語",
+        "artist": "supercell",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-14",
+        "songCount": 1,
+        "title": "鈴がなる日",
+        "artist": "三森すずこ",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-06-15",
+        "songCount": 1,
+        "title": "つぎはぎもよう",
+        "artist": "nano.RIPE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-16",
+        "songCount": 1,
+        "title": "メルティランドナイトメア",
+        "artist": "はるまきごはん\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-06-17",
+        "songCount": 1,
+        "title": "ROCK OVER JAPAN",
+        "artist": "トリプルH",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-18",
+        "songCount": 1,
+        "title": "群青讃歌",
+        "artist": "Eve\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-06-19",
+        "songCount": 1,
+        "title": "ROCK OVER JAPAN",
+        "artist": "トリプルH",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-20",
+        "songCount": 1,
+        "title": "Fly Me to the Star",
+        "artist": "小山百代\/三森すずこ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-21",
+        "songCount": 1,
+        "title": "DEAR FUTURE",
+        "artist": "COALTAR OF THE DEEPERS",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-22",
+        "songCount": 1,
+        "title": "スリピス",
+        "artist": "長江里加\/小原好美\/木野日菜",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-23",
+        "songCount": 1,
+        "title": "Lemon",
+        "artist": "米津玄師",
+        "sourceType": "NETEASE",
+        "remoteId": 536622304,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=536622304.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/jtPZRUFrSS-nRCjW_LYowQ==\/109951166521931227.jpg",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-06-24",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-06-25",
+        "songCount": 1,
+        "title": "アイドル新鋭隊 (feat. 花里みのり&桐谷遥&桃井愛莉&日野森雫&初音ミク)",
+        "artist": "Mitchie M\/MORE MORE JUMP！\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-06-26",
+        "songCount": 1,
+        "title": "恋愛サーキュレーション",
+        "artist": "花澤香菜",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-27",
+        "songCount": 1,
+        "title": "VORACITY",
+        "artist": "MYTH & ROID",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-28",
+        "songCount": 1,
+        "title": "扉を開けてベルを鳴らそう",
+        "artist": "井口裕香\/阿澄佳奈",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-06-29",
+        "songCount": 1,
+        "title": "劣等上等",
+        "artist": "鏡音リン\/鏡音レン\/Giga",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-06-30",
+        "songCount": 1,
+        "title": "夏色プレゼント",
+        "artist": "井口裕香\/阿澄佳奈\/日笠陽子\/小倉唯",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-01",
+        "songCount": 1,
+        "title": "ki-ringtone",
+        "artist": "藤澤慶昌",
+        "sourceType": "NETEASE",
+        "remoteId": 1318284099,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=1318284099.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/WLVpJX_BeuaeyjzhUSzwNQ==\/109951163737327319.jpg",
+        "category": "2025-SPECIAL"
+    },
+    {
+        "date": "2025-07-02",
+        "songCount": 1,
+        "title": "ようこそジャパリパークへ",
+        "artist": "どうぶつビスケッツ\/PPP",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-03",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-07-04",
+        "songCount": 1,
+        "title": "オレンジミント",
+        "artist": "早見沙織",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-05",
+        "songCount": 1,
+        "title": "ビバハピ",
+        "artist": "Mitchie M\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-07-06",
+        "songCount": 1,
+        "title": "ツギハギスタッカート",
+        "artist": "とあ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-07-07",
+        "songCount": 1,
+        "title": "青春コンプレックス",
+        "artist": "結束バンド",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-08",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-07-09",
+        "songCount": 1,
+        "title": "I I I",
+        "artist": "宝鐘マリン\/Kobo Kanaeru",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-07-10",
+        "songCount": 1,
+        "title": "トラフィック・ジャム",
+        "artist": "煮ル果実\/v flower",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-07-11",
+        "songCount": 1,
+        "title": "猛独が襲う",
+        "artist": "初音ミク\/一二三",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-07-12",
+        "songCount": 1,
+        "title": "シャルル - STUDY WITH MIKU ver. -",
+        "artist": "須田景凪",
+        "sourceType": "NETEASE",
+        "remoteId": 2101782428,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2101782428.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/M8N-oEHuASbL9UOVy4uWJA==\/109951169070082946.jpg",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-07-13",
+        "songCount": 1,
+        "title": "セカイ - STUDY WITH MIKU ver. -",
+        "artist": "STUDY WITH MIKU",
+        "sourceType": "NETEASE",
+        "remoteId": 2692932400,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=2692932400.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/2jiF1t9211fMd5jGGWl6bA==\/109951170707702876.jpg",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-07-14",
+        "songCount": 1,
+        "title": "きゅびびびびずむ",
+        "artist": "超てんちゃん\/NEEDY GIRL OVERDOSE\/原口沙輔",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-07-15",
+        "songCount": 1,
+        "title": "雨降花",
+        "artist": "牧野由依",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-16",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-07-17",
+        "songCount": 1,
+        "title": "Oshama Scramble!",
+        "artist": "t+pazolite",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-07-18",
+        "songCount": 1,
+        "title": "夏色プレゼント",
+        "artist": "井口裕香\/阿澄佳奈\/日笠陽子\/小倉唯",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-19",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-07-20",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-07-21",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-07-22",
+        "songCount": 1,
+        "title": "アイロニ",
+        "artist": "4円",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-07-23",
+        "songCount": 1,
+        "title": "SAKURAスキップ",
+        "artist": "高田憂希\/山口愛\/戸田めぐみ\/竹尾歩美",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-24",
+        "songCount": 1,
+        "title": "VORACITY",
+        "artist": "MYTH & ROID",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-25",
+        "songCount": 1,
+        "title": "INTERNET YAMERO",
+        "artist": "NEEDY GIRL OVERDOSE\/KOTOKO\/Aiobahn +81",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-07-26",
+        "songCount": 1,
+        "title": "ようこそジャパリパークへ",
+        "artist": "どうぶつビスケッツ\/PPP",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-27",
+        "songCount": 1,
+        "title": "熱き決闘者たち",
+        "artist": "光宗信吉",
+        "sourceType": "NETEASE",
+        "remoteId": 4998139,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=4998139.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/m2Ah6OohiO_z9jBIlZUL8Q==\/5707564859852819.jpg",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-28",
+        "songCount": 1,
+        "title": "29980円",
+        "artist": "樋口一葉",
+        "sourceType": "NETEASE",
+        "remoteId": 435289198,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=435289198.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/FZX7XAjsmEPGyVOqm4H7aQ==\/109951166361039007.jpg",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-07-29",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-07-30",
+        "songCount": 1,
+        "title": "熱き決闘者たち",
+        "artist": "光宗信吉",
+        "sourceType": "NETEASE",
+        "remoteId": 4998139,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=4998139.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/m2Ah6OohiO_z9jBIlZUL8Q==\/5707564859852819.jpg",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-07-31",
+        "songCount": 1,
+        "title": "超常マイマイン",
+        "artist": "ナユタン星人\/000",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-08-01",
+        "songCount": 1,
+        "title": "スピラーレ",
+        "artist": "牧野由依",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-02",
+        "songCount": 1,
+        "title": "Villain Virus",
+        "artist": "Kobaryo\/かめりあ",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-03",
+        "songCount": 1,
+        "title": "サイエンス (feat. 重音テト)",
+        "artist": "MIMI\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-08-04",
+        "songCount": 1,
+        "title": "夕立方程式",
+        "artist": "井上麻里奈",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-05",
+        "songCount": 1,
+        "title": "secret base ~君がくれたもの~",
+        "artist": "SILENT SIREN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-06",
+        "songCount": 1,
+        "title": "糖果色恋爱学",
+        "artist": "熊子",
+        "sourceType": "NETEASE",
+        "remoteId": 465807622,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=465807622.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/SrXjTwef2nMNo1PmERm9AQ==\/109951162877158539.jpg",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-07",
+        "songCount": 1,
+        "title": "ミモザ",
+        "artist": "佐々木恵梨",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-08",
+        "songCount": 1,
+        "title": "本能スピード",
+        "artist": "高柳知葉\/大橋彩香\/大坪由佳\/高橋未奈美\/三澤紗千香\/田中あいみ\/前田佳織里\/佐伯伊織",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-09",
+        "songCount": 1,
+        "title": "ロミオとシンデレラ",
+        "artist": "doriko\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-08-10",
+        "songCount": 1,
+        "title": "流星のパルス (feat. 鏡音レン)",
+        "artist": "*Luna\/鏡音レン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-08-11",
+        "songCount": 1,
+        "title": "8bit Adventurer",
+        "artist": "Kankitsu",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-12",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-08-13",
+        "songCount": 1,
+        "title": "Hacking to the Gate",
+        "artist": "いとうかなこ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-14",
+        "songCount": 1,
+        "title": "捜査 ～核心 2001",
+        "artist": "杉森雅和",
+        "sourceType": "NETEASE",
+        "remoteId": 4919546,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=4919546.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/5dMOmAQO8YtlMib9IoSXDA==\/5851600883154880.jpg",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-08-15",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-08-16",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-08-17",
+        "songCount": 1,
+        "title": "Sun Is Coming Up",
+        "artist": "亜咲花",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-18",
+        "songCount": 1,
+        "title": "GOODRAGE",
+        "artist": "EBIMAYO\/KEIGO KOBUCHI",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-19",
+        "songCount": 1,
+        "title": "Spasmodic",
+        "artist": "姜米條",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-20",
+        "songCount": 1,
+        "title": "Clear Mind",
+        "artist": "遠藤正明",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-21",
+        "songCount": 1,
+        "title": "大江戸戦士トノサマン",
+        "artist": "杉森雅和",
+        "sourceType": "NETEASE",
+        "remoteId": 4919544,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=4919544.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/5dMOmAQO8YtlMib9IoSXDA==\/5851600883154880.jpg",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-08-22",
+        "songCount": 1,
+        "title": "Proof of being alive",
+        "artist": "倉木麻衣\/塞壬唱片-MSR",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-08-23",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-08-24",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-08-25",
+        "songCount": 1,
+        "title": "游戏王Master Duel：大厅bgm",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-SPECIAL"
+    },
+    {
+        "date": "2025-08-26",
+        "songCount": 1,
+        "title": "福音 (feat. SHIKI)",
+        "artist": "wotaku\/SHIKI",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-27",
+        "songCount": 1,
+        "title": "Hello",
+        "artist": "Furui Riho",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-28",
+        "songCount": 1,
+        "title": "Save Yourself (feat. Miori Celesta)",
+        "artist": "litmus*\/Miori Celesta",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-08-29",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-08-30",
+        "songCount": 1,
+        "title": "fast love",
+        "artist": "斎藤千和",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-08-31",
+        "songCount": 1,
+        "title": "Fly Me to the Star",
+        "artist": "小山百代\/三森すずこ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-01",
+        "songCount": 1,
+        "title": "失恋ソング沢山聴いて 泣いてばかりの私はもう。",
+        "artist": "りりあ。",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-02",
+        "songCount": 1,
+        "title": "MIRACLE WAVE",
+        "artist": "Aqours",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-03",
+        "songCount": 1,
+        "title": "ただいま",
+        "artist": "小岩井ことり\/村川梨衣\/佐倉綾音\/阿澄佳奈",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-04",
+        "songCount": 1,
+        "title": "Worlders (BLUE BACK Ver.)",
+        "artist": "じん\/TeddyLoid\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-09-05",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-09-06",
+        "songCount": 1,
+        "title": "SAKURAスキップ",
+        "artist": "高田憂希\/山口愛\/戸田めぐみ\/竹尾歩美",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-07",
+        "songCount": 1,
+        "title": "横顔",
+        "artist": "牧野由依",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-08",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-09-09",
+        "songCount": 1,
+        "title": "花の塔",
+        "artist": "さユり",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-10",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-09-11",
+        "songCount": 1,
+        "title": "secret base ~君がくれたもの~",
+        "artist": "SILENT SIREN",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-12",
+        "songCount": 1,
+        "title": "CHASE!",
+        "artist": "楠木ともり",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-13",
+        "songCount": 1,
+        "title": "Take Over",
+        "artist": "Lyn",
+        "sourceType": "NETEASE",
+        "remoteId": 1403087325,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=1403087325.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/mbanr0AKu5T8ZezPzS07Ww==\/109951170737840099.jpg",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-09-14",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-09-15",
+        "songCount": 1,
+        "title": "Staple Stable",
+        "artist": "斎藤千和",
+        "sourceType": "NETEASE",
+        "remoteId": 461005,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=461005.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/trNd_qQQo27HEUN4ELnOSg==\/109951166198077552.jpg",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-16",
+        "songCount": 1,
+        "title": "パラソルサイダー (feat. 初音ミク)",
+        "artist": "ナナホシ管弦楽団\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-09-17",
+        "songCount": 1,
+        "title": "君の知らない物語",
+        "artist": "supercell",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-18",
+        "songCount": 1,
+        "title": "はるのとなり",
+        "artist": "佐々木恵梨",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-19",
+        "songCount": 1,
+        "title": "横顔",
+        "artist": "牧野由依",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-20",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-09-21",
+        "songCount": 1,
+        "title": "LUCKY",
+        "artist": "TOMOO",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-22",
+        "songCount": 1,
+        "title": "アイドル新鋭隊 (feat. 花里みのり&桐谷遥&桃井愛莉&日野森雫&初音ミク)",
+        "artist": "Mitchie M\/MORE MORE JUMP！\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-09-23",
+        "songCount": 1,
+        "title": "ザムザ",
+        "artist": "てにをは\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-09-24",
+        "songCount": 1,
+        "title": "本能スピード",
+        "artist": "高柳知葉\/大橋彩香\/大坪由佳\/高橋未奈美\/三澤紗千香\/田中あいみ\/前田佳織里\/佐伯伊織",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-09-25",
+        "songCount": 1,
+        "title": "なないろびより",
+        "artist": "nano.RIPE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-26",
+        "songCount": 1,
+        "title": "テレキャスタービーボーイ",
+        "artist": "すりぃ\/鏡音レン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-09-27",
+        "songCount": 1,
+        "title": "粉骨砕身カジノゥ (long ver.)",
+        "artist": "モリモリあつし",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-09-28",
+        "songCount": 1,
+        "title": "Venus Line",
+        "artist": "広瀬香美",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-29",
+        "songCount": 1,
+        "title": "azure",
+        "artist": "TrySail",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-09-30",
+        "songCount": 1,
+        "title": "unravel",
+        "artist": "TK from 凛として時雨",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-01",
+        "songCount": 1,
+        "title": "卒業",
+        "artist": "内緒のピアス\/重音テト",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-10-02",
+        "songCount": 1,
+        "title": "アンサンブル",
+        "artist": "TRUE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-03",
+        "songCount": 1,
+        "title": "ヨダカ",
+        "artist": "月詠み",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-04",
+        "songCount": 1,
+        "title": "端程山",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-10-05",
+        "songCount": 1,
+        "title": "逆转裁判123 成步堂精选集：主界面bgm",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-SPECIAL"
+    },
+    {
+        "date": "2025-10-06",
+        "songCount": 1,
+        "title": "DREAM SOLISTER",
+        "artist": "TRUE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-07",
+        "songCount": 1,
+        "title": "I want you",
+        "artist": "DJMAX",
+        "sourceType": "NETEASE",
+        "remoteId": 30474023,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=30474023.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/nQFqEtuW8jWA3Iwd8R9W6Q==\/7836219371312612.jpg",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-10-08",
+        "songCount": 1,
+        "title": "霧周途",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-10-09",
+        "songCount": 1,
+        "title": "蜘蛛の糸 (feat. 影縫英)",
+        "artist": "きくお\/cosMo@暴走P\/影縫英",
+        "sourceType": "LOCAL",
+        "category": "2025-音ゲー曲"
+    },
+    {
+        "date": "2025-10-10",
+        "songCount": 1,
+        "title": "ReCoda",
+        "artist": "TRUE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-11",
+        "songCount": 1,
+        "title": "D City Rock",
+        "artist": "TeddyLoid\/Debra Zeer",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-12",
+        "songCount": 1,
+        "title": "CHASE!",
+        "artist": "楠木ともり",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-13",
+        "songCount": 1,
+        "title": "Worlders (BLUE BACK Ver.)",
+        "artist": "じん\/TeddyLoid\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-10-14",
+        "songCount": 1,
+        "title": "宇宙散歩",
+        "artist": "DECO*27\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-10-15",
+        "songCount": 1,
+        "title": "夜隠染",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-10-16",
+        "songCount": 1,
+        "title": "游戏王Master Duel：#9场地（魔偶甜点\/鬼计）bgm",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-SPECIAL"
+    },
+    {
+        "date": "2025-10-17",
+        "songCount": 1,
+        "title": "星が泳ぐ",
+        "artist": "マカロニえんぴつ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-18",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-10-19",
+        "songCount": 1,
+        "title": "So Precious",
+        "artist": "亜咲花",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-20",
+        "songCount": 1,
+        "title": "クスシキ",
+        "artist": "Mrs. GREEN APPLE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-21",
+        "songCount": 1,
+        "title": "星座になれたら",
+        "artist": "結束バンド",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-22",
+        "songCount": 1,
+        "title": "STEP by STEP UP↑↑↑↑",
+        "artist": "高田憂希\/山口愛\/戸田めぐみ\/竹尾歩美",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-23",
+        "songCount": 1,
+        "title": "過惰幻",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-10-24",
+        "songCount": 1,
+        "title": "クスシキ",
+        "artist": "Mrs. GREEN APPLE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-25",
+        "songCount": 1,
+        "title": "メロメロイド (feat. 初音ミク)",
+        "artist": "かいりきベア\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-10-26",
+        "songCount": 1,
+        "title": "愛♡スクリ～ム！",
+        "artist": "AiScReam",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-10-27",
+        "songCount": 1,
+        "title": "ローリンガール",
+        "artist": "wowaka\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-10-28",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-10-29",
+        "songCount": 1,
+        "title": "ふゆびより",
+        "artist": "佐々木恵梨",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-10-30",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-10-31",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-11-01",
+        "songCount": 1,
+        "title": "カフネ",
+        "artist": "Brian the Sun",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-02",
+        "songCount": 1,
+        "title": "熱き決闘者たち",
+        "artist": "光宗信吉",
+        "sourceType": "NETEASE",
+        "remoteId": 4998139,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=4998139.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/m2Ah6OohiO_z9jBIlZUL8Q==\/5707564859852819.jpg",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-03",
+        "songCount": 1,
+        "title": "STEP by STEP UP↑↑↑↑",
+        "artist": "高田憂希\/山口愛\/戸田めぐみ\/竹尾歩美",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-04",
+        "songCount": 1,
+        "title": "クスシキ",
+        "artist": "Mrs. GREEN APPLE",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-05",
+        "songCount": 1,
+        "title": "ロミオとシンデレラ",
+        "artist": "doriko\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-11-06",
+        "songCount": 1,
+        "title": "乙女解剖",
+        "artist": "DECO*27\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-11-07",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-11-08",
+        "songCount": 1,
+        "title": "LUCKY",
+        "artist": "TOMOO",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-09",
+        "songCount": 1,
+        "title": "only my railgun",
+        "artist": "fripSide",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-10",
+        "songCount": 1,
+        "title": "ユキソラ",
+        "artist": "とあ\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-11-11",
+        "songCount": 1,
+        "title": "霧周途",
+        "artist": "MyGO!!!!!",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-11-12",
+        "songCount": 1,
+        "title": "君の知らない物語",
+        "artist": "supercell",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-13",
+        "songCount": 1,
+        "title": "残響散歌",
+        "artist": "Aimer",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-14",
+        "songCount": 1,
+        "title": "ナイショの話",
+        "artist": "ClariS",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-15",
+        "songCount": 1,
+        "title": "I Feel Fine!!／小川真奈 Full Version",
+        "artist": "小川真奈",
+        "sourceType": "LOCAL",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-11-16",
+        "songCount": 1,
+        "title": "失恋ソング沢山聴いて 泣いてばかりの私はもう。",
+        "artist": "りりあ。",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-17",
+        "songCount": 1,
+        "title": "顔",
+        "artist": "Ave Mujica",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-18",
+        "songCount": 1,
+        "title": "乙女解剖",
+        "artist": "DECO*27\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-11-19",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-11-20",
+        "songCount": 1,
+        "title": "Glorious Moment！",
+        "artist": "中村カンナ\/咲々木瞳\/徳井青空",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-11-21",
+        "songCount": 1,
+        "title": "39",
+        "artist": "DECO*27\/sasakure.UK\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-11-22",
+        "songCount": 1,
+        "title": "メランコリック",
+        "artist": "Junky\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-11-23",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-11-24",
+        "songCount": 1,
+        "title": "ビューティフルデイズ",
+        "artist": "コアラモード.",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-25",
+        "songCount": 1,
+        "title": "Worlders (BLUE BACK Ver.)",
+        "artist": "じん\/TeddyLoid\/初音ミク",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-11-26",
+        "songCount": 1,
+        "title": "STEP by STEP UP↑↑↑↑",
+        "artist": "高田憂希\/山口愛\/戸田めぐみ\/竹尾歩美",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-27",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-11-28",
+        "songCount": 1,
+        "title": "オレンジミント",
+        "artist": "早見沙織",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-11-29",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-11-30",
+        "songCount": 1,
+        "title": "I love you 私の君／THE ポッシボー Full Version",
+        "artist": "チャオ ベッラ チンクエッティ",
+        "sourceType": "LOCAL",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-12-01",
+        "songCount": 1,
+        "title": "名前のない怪物",
+        "artist": "EGOIST",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-02",
+        "songCount": 1,
+        "title": "Glossy:MMM",
+        "artist": "橋本みゆき",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-03",
+        "songCount": 1,
+        "title": "ココロオドル -original version-",
+        "artist": "nobodyknows+",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-12-04",
+        "songCount": 1,
+        "title": "JOINT",
+        "artist": "川田まみ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-05",
+        "songCount": 1,
+        "title": "残響散歌",
+        "artist": "Aimer",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-06",
+        "songCount": 1,
+        "title": "Overlap",
+        "artist": "KIMERU",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-07",
+        "songCount": 1,
+        "title": "Out Of Control",
+        "artist": "Nothing's Carved In Stone",
+        "sourceType": "NETEASE",
+        "remoteId": 26193709,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=26193709.mp3",
+        "albumArtUri": "https:\/\/p4.music.126.net\/bLIO5k2h4_Ix3waahOyDPg==\/109951166199185054.jpg",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-08",
+        "songCount": 1,
+        "title": "緋色の空",
+        "artist": "川田まみ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-09",
+        "songCount": 1,
+        "title": "I'll believe",
+        "artist": "ALTIMA",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-10",
+        "songCount": 1,
+        "title": "動く、動く",
+        "artist": "水瀬いのり\/久保ユリカ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-11",
+        "songCount": 1,
+        "title": "perfect slumbers",
+        "artist": "堀江由衣",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-12",
+        "songCount": 1,
+        "title": "∞",
+        "artist": "高柳知葉",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-13",
+        "songCount": 1,
+        "title": "僕らの世代!／ナイスガール トレイニー Full Version",
+        "artist": "NICE GIRL プロジェクト",
+        "sourceType": "LOCAL",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-12-14",
+        "songCount": 1,
+        "title": "Aqua Room",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-12-15",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-12-16",
+        "songCount": 1,
+        "title": "NEWings",
+        "artist": "无",
+        "sourceType": "TEXT",
+        "category": "2025-GAME MUSIC"
+    },
+    {
+        "date": "2025-12-17",
+        "songCount": 1,
+        "title": "名前のない怪物",
+        "artist": "EGOIST",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-18",
+        "songCount": 1,
+        "title": "88☆彡 (feat. 初音ミク&KAITO)",
+        "artist": "まらしぃ\/堀江晶太\/初音ミク\/KAITO",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-12-19",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-12-20",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-12-21",
+        "songCount": 1,
+        "title": "限りなく灰色へ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&鏡音リン)",
+        "artist": "すりぃ\/25時、ナイトコードで。\/鏡音リン",
+        "sourceType": "LOCAL",
+        "category": "2025-VOCALOID"
+    },
+    {
+        "date": "2025-12-22",
+        "songCount": 1,
+        "title": "无",
+        "artist": "无",
+        "sourceType": "NONE"
+    },
+    {
+        "date": "2025-12-23",
+        "songCount": 1,
+        "title": "ふゆびより",
+        "artist": "佐々木恵梨",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-24",
+        "songCount": 1,
+        "title": "Daisy",
+        "artist": "R・O・N",
+        "sourceType": "NETEASE",
+        "remoteId": 1845945615,
+        "uri": "http:\/\/music.163.com\/song\/media\/outer\/url?id=1845945615.mp3",
+        "albumArtUri": "https:\/\/p3.music.126.net\/5cbet2i6nRJItAAfh0cgxQ==\/109951170294622307.jpg",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-25",
+        "songCount": 1,
+        "title": "夏色プレゼント",
+        "artist": "井口裕香\/阿澄佳奈\/日笠陽子\/小倉唯",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-26",
+        "songCount": 1,
+        "title": "Over The Next Rainbow",
+        "artist": "Saint Aqours Snow",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-27",
+        "songCount": 1,
+        "title": "I'll believe",
+        "artist": "ALTIMA",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-28",
+        "songCount": 1,
+        "title": "White Delight",
+        "artist": "内田秀",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-12-29",
+        "songCount": 1,
+        "title": "異次元★♥BIGBANG",
+        "artist": "大橋彩香\/田所あずさ\/礒部花凜\/伊波杏樹\/大西亜玖璃\/伊達さゆり\/楡井希実",
+        "sourceType": "LOCAL",
+        "category": "2025-J-POP\/ROCK"
+    },
+    {
+        "date": "2025-12-30",
+        "songCount": 1,
+        "title": "ススメ→トゥモロウ",
+        "artist": "新田恵海\/内田彩\/三森すずこ",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    },
+    {
+        "date": "2025-12-31",
+        "songCount": 1,
+        "title": "きっと青春が聞こえる",
+        "artist": "μ's",
+        "sourceType": "LOCAL",
+        "category": "2025-アニソン"
+    }
 ]

@@ -106,35 +106,109 @@ const layoutConfig = {
 };
 
 // 3. 数据处理
-const heatData = [];
-const songMap = {}; 
-const pieStats = { 1:0, 2:0, 3:0, 4:0, 5:0, 6:0 };
-const barStats = Array.from({ length: 12 }, () => ({ 1:0, 2:0, 3:0, 4:0, 5:0, 6:0 }));
+const typeColorMap = {
+    1: '#7fb80e',
+    2: '#7bbfea',
+    3: '#f58220',
+    4: '#f58f98',
+    5: '#CF9FFF',
+    6: '#848884',
+};
 
-rawData.forEach(({ date, song, type }) => {
-    const typeId = type ? typeMap[type] : 0;
-    heatData.push([date, typeId]);
-    songMap[date] = song;
+const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+}[char]));
 
-    if (typeId !== 0) {
-        pieStats[typeId]++;
-        const month = parseInt(date.split('-')[1], 10) - 1;
-        if (month >= 0 && month <= 11) {
-            barStats[month][typeId]++;
-        }
+const isEmptyValue = (value) => {
+    if (value == null) {
+        return true;
     }
+    return ['', '/', '无', '無'].includes(String(value).trim());
+};
+
+const normalizeCategory = (value) => {
+    if (value == null) {
+        return '';
+    }
+    const normalized = String(value).replace(/^20\d{2}-/, '').trim();
+    return isEmptyValue(normalized) ? '' : normalized;
+};
+
+const normalizeTitle = (value) => {
+    if (isEmptyValue(value)) {
+        return '';
+    }
+    return String(value).trim();
+};
+
+const resolveTypeId = (value) => {
+    const category = normalizeCategory(value);
+    const aliasMap = {
+        'アニソン': 2,
+        '音ゲー曲': 4,
+    };
+    return aliasMap[category] || typeMap[category] || 0;
+};
+
+const extractEntries = (record) => {
+    if ('song' in record || 'type' in record) {
+        return [{
+            title: normalizeTitle(record.song),
+            typeId: resolveTypeId(record.type),
+        }];
+    }
+
+    const suffixes = [''];
+    const maxSongs = Math.max(Number(record.songCount) || 1, 1);
+    for (let index = 2; index <= maxSongs; index++) {
+        suffixes.push(String(index));
+    }
+
+    const entries = suffixes.map((suffix) => ({
+        title: normalizeTitle(record[`title${suffix}`]),
+        typeId: resolveTypeId(record[`category${suffix}`]),
+    })).filter((entry) => entry.title || entry.typeId);
+
+    return entries.length ? entries : [{ title: '', typeId: 0 }];
+};
+
+const calendarData = [];
+const songMap = {};
+const pieStats = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 };
+const barStats = Array.from({ length: 12 }, () => ({ 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 }));
+
+rawData.forEach((record) => {
+    const { date } = record;
+    const entries = extractEntries(record);
+    songMap[date] = entries;
+
+    entries.forEach((entry, index) => {
+        calendarData.push([date, entry.typeId, index, entries.length]);
+
+        if (entry.typeId !== 0) {
+            pieStats[entry.typeId]++;
+            const month = parseInt(date.split('-')[1], 10) - 1;
+            if (month >= 0 && month <= 11) {
+                barStats[month][entry.typeId]++;
+            }
+        }
+    });
 });
 
-const pieSeriesData = Object.keys(pieStats).map(key => {
-    const typeId = parseInt(key);
+const pieSeriesData = Object.keys(pieStats).map((key) => {
+    const typeId = parseInt(key, 10);
     return {
-        value: [pieStats[key], typeId], 
+        value: [pieStats[key], typeId],
         name: typeLabelMap[typeId]
     };
-}).filter(item => item.value[0] > 0);
+}).filter((item) => item.value[0] > 0);
 
-const barSeries = Object.keys(typeLabelMap).map(key => {
-    const typeId = parseInt(key);
+const barSeries = Object.keys(typeLabelMap).map((key) => {
+    const typeId = parseInt(key, 10);
     return {
         name: typeLabelMap[typeId],
         type: 'bar',
@@ -147,7 +221,171 @@ const barSeries = Object.keys(typeLabelMap).map(key => {
     };
 });
 
+const renderCalendarItem = (params, api) => {
+    const date = api.value(0);
+    const typeId = api.value(1);
+    const segmentIndex = api.value(2);
+    const segmentCount = Math.max(api.value(3) || 1, 1);
+    const cellPoint = api.coord(date);
+    const cellWidth = params.coordSys.cellWidth;
+    const cellHeight = params.coordSys.cellHeight;
+    const inset = 1;
+    const rawCellShape = {
+        x: cellPoint[0] - cellWidth / 2 + inset,
+        y: cellPoint[1] - cellHeight / 2 + inset,
+        width: cellWidth - inset * 2,
+        height: cellHeight - inset * 2
+    };
+    const clipArea = {
+        x: params.coordSys.x,
+        y: params.coordSys.y,
+        width: params.coordSys.width,
+        height: params.coordSys.height
+    };
+    const clippedX = Math.max(rawCellShape.x, clipArea.x);
+    const clippedY = Math.max(rawCellShape.y, clipArea.y);
+    const clippedRight = Math.min(rawCellShape.x + rawCellShape.width, clipArea.x + clipArea.width);
+    const clippedBottom = Math.min(rawCellShape.y + rawCellShape.height, clipArea.y + clipArea.height);
+    const cellShape = {
+        x: clippedX,
+        y: clippedY,
+        width: clippedRight - clippedX,
+        height: clippedBottom - clippedY
+    };
+    const cornerRadius = Math.min(3, cellShape.width / 2, cellShape.height / 2);
+
+    if (cellShape.width <= 0 || cellShape.height <= 0 || typeId === 0) {
+        return null;
+    }
+
+    const x = cellShape.x;
+    const y = cellShape.y;
+    const width = cellShape.width;
+    const height = cellShape.height;
+    const right = x + width;
+    const bottom = y + height;
+    const centerX = x + width / 2;
+    const centerY = y + height / 2;
+    const segmentStyle = api.style({
+        stroke: themeConfig.gapColor,
+        lineWidth: 1
+    });
+
+    let segmentShape;
+    if (segmentCount === 1) {
+        segmentShape = {
+            type: 'rect',
+            shape: {
+                x,
+                y,
+                width,
+                height,
+                r: cornerRadius
+            },
+            style: segmentStyle
+        };
+    } else if (segmentCount === 2) {
+        segmentShape = {
+            type: 'polygon',
+            shape: {
+                points: segmentIndex === 0
+                    ? [[x, y], [right, y], [x, bottom]]
+                    : [[right, bottom], [x, bottom], [right, y]]
+            },
+            style: segmentStyle
+        };
+    } else {
+        segmentShape = {
+            type: 'sector',
+            shape: {
+                cx: centerX,
+                cy: centerY,
+                r0: 0,
+                r: Math.max(width, height),
+                startAngle: -Math.PI / 2 + (Math.PI * 2 * segmentIndex) / segmentCount,
+                endAngle: -Math.PI / 2 + (Math.PI * 2 * (segmentIndex + 1)) / segmentCount,
+                clockwise: true
+            },
+            style: segmentStyle
+        };
+    }
+
+    const children = [segmentShape];
+    if (segmentIndex === 0) {
+        children.push({
+            type: 'rect',
+            shape: {
+                x,
+                y,
+                width,
+                height,
+                r: cornerRadius
+            },
+            style: {
+                fill: 'transparent',
+                stroke: themeConfig.gapColor,
+                lineWidth: 1
+            },
+            silent: true
+        });
+    }
+
+    return {
+        type: 'group',
+        clipPath: {
+            type: 'rect',
+            shape: {
+                x,
+                y,
+                width,
+                height,
+                r: cornerRadius
+            }
+        },
+        children
+    };
+};
+
 // 4. ECharts Option 配置
+const tooltipFormatter = function (params) {
+    const dateStyle = `font-size:14px; color:${themeConfig.tooltipText}; user-select:text;`;
+    const divStyle = `font-size:14px; color:${themeConfig.tooltipText};`;
+
+    if (params.seriesIndex === 0) {
+        const date = params.value[0];
+        const entries = (songMap[date] || []).filter((entry) => entry.typeId !== 0 || entry.title);
+        if (!entries.length) {
+            return null;
+        }
+        const content = entries.map((entry) => {
+            const markerStyle = entry.typeId
+                ? `background:${typeColorMap[entry.typeId]};`
+                : `border:1px solid ${themeConfig.secondaryTextColor};`;
+            return `
+            <div style="display:flex; align-items:flex-start; gap:6px; margin-top:6px;">
+                <span style="display:inline-block; width:8px; height:8px; border-radius:50%; margin-top:5px; flex:none; ${markerStyle}"></span>
+                <span>${escapeHtml(entry.title || typeLabelMap[entry.typeId] || '无')}</span>
+            </div>`;
+        }).join('');
+
+        return `
+        <div style="${dateStyle}">
+            <b>${escapeHtml(date)}</b>
+            ${content || '<div style="margin-top:6px;">无</div>'}
+        </div>`;
+    }
+
+    const count = Array.isArray(params.value) ? params.value[0] : params.value;
+    return `
+    <div style="${divStyle}">
+        <b>${escapeHtml(params.name)}</b><br/>
+        ${escapeHtml(params.seriesName)}: ${count}
+        ${params.percent ? `(${params.percent}%)` : ''}
+    </div>`;
+};
+
+const heatData = calendarData;
+
 const option = {
     backgroundColor: 'transparent',
 
@@ -161,28 +399,7 @@ const option = {
             color: themeConfig.tooltipText
         },
         extraCssText: 'user-select:text; pointer-events:auto;',
-        formatter: function (params) {
-            const dateStyle = `font-size:14px; color:${themeConfig.tooltipText}; user-select:text;`;
-            const divStyle = `font-size:14px; color:${themeConfig.tooltipText};`;
-            
-            if (params.seriesIndex === 0) {
-                const date = params.data[0];
-                const song = songMap[date];
-                return `
-                <div style="${dateStyle}">
-                    <b>${date}</b><br/>
-                    ${song ? `🎵 ${song}` : '无'}
-                </div>`;
-            } else {
-                const count = Array.isArray(params.value) ? params.value[0] : params.value;
-                return `
-                <div style="${divStyle}">
-                    <b>${params.name}</b><br/>
-                    ${params.seriesName}: ${count} 首
-                    ${params.percent ? `(${params.percent}%)` : ''}
-                </div>`;
-            }
-        }
+        formatter: tooltipFormatter,
     },
 
     visualMap: {
@@ -246,17 +463,6 @@ const option = {
         height: layoutConfig.grid.height,
         containLabel: true
     },
-    xAxis: {
-        type: 'category',
-        data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
-        axisLabel: { 
-            interval: 0, 
-            fontSize: 10, 
-            color: themeConfig.secondaryTextColor
-        },
-        axisTick: { show: false },
-        axisLine: { show: false }
-    },
     yAxis: {
         type: 'value',
         splitLine: { 
@@ -310,6 +516,34 @@ const option = {
         // Series 2-7: 柱状图
         ...barSeries
     ]
+};
+option.tooltip.formatter = tooltipFormatter;
+option.visualMap.selectedMode = 'multiple';
+option.visualMap.pieces = [
+    { value: 1, label: 'VOCALOID', color: '#7fb80e' },
+    { value: 2, label: 'アニソン', color: '#7bbfea' },
+    { value: 3, label: 'J-POP/ROCK', color: '#f58220' },
+    { value: 4, label: '音ゲー曲', color: '#f58f98' },
+    { value: 5, label: 'GAME MUSIC', color: '#CF9FFF' },
+    { value: 6, label: 'SPECIAL', color: '#848884' },
+];
+option.xAxis = {
+    type: 'category',
+    data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+    axisLabel: {
+        interval: 0,
+        fontSize: 10,
+        color: themeConfig.secondaryTextColor
+    },
+    axisTick: { show: false },
+    axisLine: { show: false }
+};
+option.series[0] = {
+    type: 'custom',
+    coordinateSystem: 'calendar',
+    renderItem: renderCalendarItem,
+    data: calendarData,
+    z: 2
 };
 ```
 :::
