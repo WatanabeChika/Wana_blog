@@ -9,6 +9,7 @@ index: false
 ## 目录
 
 ### 可能实用的小玩意
+- [挑战不碰鼠标玩一局《文明 VI》](maybe_useful/civ6_cli.md)
 - [移动竹管，如何拼出完整猎豹？](maybe_useful/panorama_in_video.md)
 - [Kill the Killer-Sudoku problem](maybe_useful/killer_sudoku.md)
 - [爬虫进阶——知网文献下载](maybe_useful/cnki_search.md)

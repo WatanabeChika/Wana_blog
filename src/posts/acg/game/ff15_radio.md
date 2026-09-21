@@ -5,6 +5,7 @@ date: 2024-08-26
 isOriginal: true
 category: 
     - Game
+    - Technology
 tag: 
     - FF15
     - Mod
