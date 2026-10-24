@@ -103,11 +103,13 @@ export default hopeTheme({
     component: true,
     demo: true,
     figure: true,
+    footnote: true,
     imgLazyload: true,
     imgSize: true,
     include: true,
     mark: true,
     plantuml: true,
+    steps: true,
     spoiler: true,
     stylize: [
       {
@@ -127,7 +129,8 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
-    footnote: true,
+    DANGEROUS_ALLOW_SCRIPT_EXECUTION: true,
+    DANGEROUS_SCRIPT_EXECUTION_ALLOWLIST: ['posts/life/yearly_report_2025.md'],
 
     // 在启用之前安装 chart.js
     // chart: true,
